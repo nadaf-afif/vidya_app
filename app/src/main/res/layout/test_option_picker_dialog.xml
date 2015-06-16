@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="40dp">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/theory_test"
+            android:id="@+id/theoryTestRB"
+            android:checked="true" />
+
+        <RadioButton
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mcq_test"
+            android:id="@+id/mcqTestRB" />
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/proceedTest"
+        android:padding="12dp"
+        android:textColor="@color/text_white"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner_solid_light_yellow"
+        android:text="@string/proceed" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:padding="16dp">
+
+	<Button
+		android:layout_margin="8dp"
+		android:id="@+id/createTestBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:text="@string/custom_test"/>
+
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/templateTestBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/template_test"/>
+
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/previousTestBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/previous_test"/>
+
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/fixedTestBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/fixed_test"/>
+
+
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/continueTestBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/resume_test"/>
+
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/reportTestBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/report_test"/>
+
+</LinearLayout>

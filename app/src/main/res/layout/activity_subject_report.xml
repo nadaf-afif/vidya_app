@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				  android:orientation="vertical"
+				  android:layout_width="match_parent"
+				  android:layout_height="match_parent"
+				  android:padding="8dp">
+
+
+		<TextView
+			android:textSize="16sp"
+			android:textColor="@color/text_black"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Score Analysis Report :"/>
+
+		<HorizontalScrollView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TableLayout
+				android:id="@+id/questionWiseTL"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:id="@+id/tableRow13"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:gravity="center"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/test_type"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/difficulty_level_of_questions"/>
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/subject_name"/>
+
+
+				</TableRow>
+
+				<TableRow
+					android:id="@+id/tableRow1"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:id="@+id/scoreTestTypeTV"
+						android:background="@drawable/rounede_corner_lightpurple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:gravity="center"
+						android:textColor="@color/text_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+					<TextView
+						android:id="@+id/scoreDiffLevelTV"
+						android:background="@drawable/rounede_corner_lightpurple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"/>
+					<TextView
+						android:id="@+id/subjectNameTV"
+						android:background="@drawable/rounede_corner_lightpurple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"/>
+
+
+				</TableRow>
+
+			</TableLayout>
+		</HorizontalScrollView>
+
+		<HorizontalScrollView
+			android:layout_marginTop="8dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TableLayout
+				android:id="@+id/acorePercentageTL"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:id="@+id/tableRow3"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:gravity="center"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/avg_score"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:gravity="center"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/high_score"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/low_score"/>
+
+
+				</TableRow>
+
+				<TableRow
+					android:id="@+id/tableRow4"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:id="@+id/avgScoreTV"
+						android:background="@drawable/rounede_corner_lightpurple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:gravity="center"
+						android:textColor="@color/text_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"/>
+
+					<TextView
+						android:id="@+id/higScoreTV"
+						android:background="@drawable/rounede_corner_lightpurple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"/>
+
+					<TextView
+						android:id="@+id/lowScoreTV"
+						android:background="@drawable/rounede_corner_lightpurple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_black"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"/>
+
+
+				</TableRow>
+
+			</TableLayout>
+		</HorizontalScrollView>
+
+		<HorizontalScrollView
+			android:layout_marginTop="8dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TableLayout
+				android:id="@+id/scoreDetailsTL"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:id="@+id/tableRow5"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						android:text="@string/sr_no"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						android:text="@string/test_id"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/difficulty_level"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/total_question"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/total_difficulty_level_question"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/attempted_question"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/correct_answer"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/test_score_per"/>
+
+
+				</TableRow>
+
+			</TableLayout>
+		</HorizontalScrollView>
+
+		<LinearLayout
+			android:padding="4dp"
+			android:background="@drawable/rounded_corner_gary"
+			android:layout_marginTop="8dp"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="400dp"
+			android:id="@+id/scorePieChart"/>
+
+		<LinearLayout
+			android:padding="4dp"
+			android:background="@drawable/rounded_corner_gary"
+			android:layout_marginTop="8dp"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="400dp"
+			android:id="@+id/scorePerformanceLineChart"/>
+		<LinearLayout
+			android:padding="4dp"
+			android:background="@drawable/rounded_corner_gary"
+			android:layout_marginTop="8dp"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="400dp"
+			android:id="@+id/scoreQuestionChart"/>
+
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				  android:orientation="vertical"
+				  android:layout_width="match_parent"
+				  android:layout_height="match_parent"
+				  android:padding="8dp">
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/question"/>
+
+		<WebView
+			android:animateLayoutChanges="true"
+			android:layoutMode="opticalBounds"
+			android:layout_marginTop="4dp"
+			android:id="@+id/questionWV"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/rounded_corner_gary"/>
+
+		<LinearLayout
+			android:id="@+id/optionsLL"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="8dp"
+				android:text="@string/options"/>
+
+			<RadioGroup
+				android:layout_marginTop="4dp"
+				android:background="@drawable/rounded_corner_gary"
+				android:id="@+id/questionRG"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp">
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:padding="4dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<RadioButton
+						android:layout_marginTop="4dp"
+						android:id="@+id/option1"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						/>
+
+					<WebView
+						android:layout_gravity="center_horizontal"
+
+						android:animateLayoutChanges="true"
+						android:layoutMode="opticalBounds"
+						android:layout_marginTop="4dp"
+						android:id="@+id/option1WV"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:background="@drawable/rounded_corner_gary"/>
+				</LinearLayout>
+
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:padding="4dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<RadioButton
+						android:layout_marginTop="4dp"
+						android:id="@+id/option2"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						/>
+
+					<WebView
+						android:layout_gravity="center_horizontal"
+
+						android:animateLayoutChanges="true"
+						android:layoutMode="opticalBounds"
+						android:layout_marginTop="4dp"
+						android:id="@+id/option2WV"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:background="@drawable/rounded_corner_gary"/>
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:padding="4dp"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<RadioButton
+						android:layout_marginTop="4dp"
+						android:id="@+id/option3"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						/>
+
+					<WebView
+						android:layout_gravity="center_horizontal"
+
+						android:animateLayoutChanges="true"
+						android:layoutMode="opticalBounds"
+						android:layout_marginTop="4dp"
+						android:id="@+id/option3WV"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:background="@drawable/rounded_corner_gary"/>
+				</LinearLayout>
+
+				<LinearLayout
+					android:padding="4dp"
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<RadioButton
+						android:layout_marginTop="4dp"
+						android:id="@+id/option4"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						/>
+
+					<WebView
+						android:layout_gravity="center_horizontal"
+
+						android:animateLayoutChanges="true"
+						android:layoutMode="opticalBounds"
+						android:layout_marginTop="4dp"
+						android:id="@+id/option4WV"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:background="@drawable/rounded_corner_gary"/>
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/option5LL"
+					android:padding="4dp"
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:orientation="horizontal">
+
+					<RadioButton
+						android:layout_marginTop="4dp"
+						android:id="@+id/option5"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"/>
+
+					<WebView
+						android:layout_gravity="center_horizontal"
+						android:animateLayoutChanges="true"
+						android:layoutMode="opticalBounds"
+						android:id="@+id/option5WV"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:background="@drawable/rounded_corner_gary"/>
+				</LinearLayout>
+			</RadioGroup>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center"
+			android:weightSum="100">
+
+			<Button
+				android:id="@+id/backBtn"
+				android:layout_marginTop="8dp"
+				android:layout_width="0dp"
+				android:layout_margin="4dp"
+				android:layout_weight="25"
+				android:layout_height="wrap_content"
+				android:text="@string/back"
+				android:background="@drawable/rounded_corner_solid_dark_yellow"/>
+
+			<Button
+				android:id="@+id/nextBtn"
+				android:layout_marginTop="8dp"
+				android:layout_width="0dp"
+				android:layout_margin="4dp"
+				android:layout_weight="25"
+				android:layout_height="wrap_content"
+				android:text="@string/next"
+				android:background="@drawable/rounded_corner_solid_dark_yellow"/>
+
+			<Button
+				android:id="@+id/pauseBtn"
+				android:layout_marginTop="8dp"
+				android:layout_width="0dp"
+				android:layout_margin="4dp"
+				android:layout_weight="25"
+				android:layout_height="wrap_content"
+				android:text="@string/pause"
+				android:background="@drawable/rounded_corner_solid_dark_yellow"/>
+
+			<Button
+				android:id="@+id/endBtn"
+				android:layout_marginTop="8dp"
+				android:layout_width="0dp"
+				android:layout_margin="4dp"
+				android:layout_weight="25"
+				android:layout_height="wrap_content"
+				android:text="@string/end"
+				android:background="@drawable/rounded_corner_solid_dark_yellow"/>
+		</LinearLayout>
+
+
+	</LinearLayout>
+</ScrollView>

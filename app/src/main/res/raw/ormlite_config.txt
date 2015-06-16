@@ -1,0 +1,714 @@
+#
+# generated on 2015/03/16 08:15:58
+#
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.Course
+tableName=course
+# --table-fields-start--
+# --field-start--
+fieldName=courseId
+id=true
+# --field-end--
+# --field-start--
+fieldName=courseName
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.CalenderPlan
+tableName=calenderplan
+# --table-fields-start--
+# --field-start--
+fieldName=IdTopic
+id=true
+# --field-end--
+# --field-start--
+fieldName=Subject
+# --field-end--
+# --field-start--
+fieldName=Topicname
+# --field-end--
+# --field-start--
+fieldName=IdPlannerOutPutDateWiseTime
+# --field-end--
+# --field-start--
+fieldName=RevisionNo
+# --field-end--
+# --field-start--
+fieldName=topicTime
+# --field-end--
+# --field-start--
+fieldName=ayTime
+# --field-end--
+# --field-start--
+fieldName=AvavialableDayTime
+# --field-end--
+# --field-start--
+fieldName=TopicDate
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.Subject
+tableName=subject
+# --table-fields-start--
+# --field-start--
+fieldName=idSubjectMaster
+id=true
+# --field-end--
+# --field-start--
+fieldName=subjectName
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.Topic
+tableName=topic
+# --table-fields-start--
+# --field-start--
+fieldName=idTopicMaster
+id=true
+# --field-end--
+# --field-start--
+fieldName=topicName
+# --field-end--
+# --field-start--
+fieldName=subject
+foreign=true
+foreignAutoRefresh=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.PlanEvents
+tableName=PlanEventsTbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=avavialableDayTime
+# --field-end--
+# --field-start--
+fieldName=dayTime
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=idPlannerOutPutDateWiseTime
+# --field-end--
+# --field-start--
+fieldName=idTopic
+# --field-end--
+# --field-start--
+fieldName=isActive
+# --field-end--
+# --field-start--
+fieldName=isRevision
+# --field-end--
+# --field-start--
+fieldName=revisionNumber
+# --field-end--
+# --field-start--
+fieldName=subject
+# --field-end--
+# --field-start--
+fieldName=topicDate
+# --field-end--
+# --field-start--
+fieldName=topicTime
+# --field-end--
+# --field-start--
+fieldName=topicName
+# --field-end--
+# --field-start--
+fieldName=topicTimeFloat
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.KeyNotes
+tableName=KeyNotes
+# --table-fields-start--
+# --field-start--
+fieldName=AddedBy
+# --field-end--
+# --field-start--
+fieldName=Description
+# --field-end--
+# --field-start--
+fieldName=IdKeyNotes
+# --field-end--
+# --field-start--
+fieldName=IdTopicMaster
+# --field-end--
+# --field-start--
+fieldName=IsActive
+# --field-end--
+# --field-start--
+fieldName=ThumbnailUrl
+# --field-end--
+# --field-start--
+fieldName=UploadedDate
+# --field-end--
+# --field-start--
+fieldName=UploadedFileUrl
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.TopicReplanData
+tableName=TopicReplanData
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=availableTopicRevTime
+# --field-end--
+# --field-start--
+fieldName=idIndex
+# --field-end--
+# --field-start--
+fieldName=idSubjectNameSakeMaster
+# --field-end--
+# --field-start--
+fieldName=idTopic
+# --field-end--
+# --field-start--
+fieldName=revisionNo
+# --field-end--
+# --field-start--
+fieldName=subject
+# --field-end--
+# --field-start--
+fieldName=topicname
+# --field-end--
+# --field-start--
+fieldName=isActive
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.SubjectReplanData
+tableName=SubjectReplanData
+# --table-fields-start--
+# --field-start--
+fieldName=availableRevTime
+# --field-end--
+# --field-start--
+fieldName=idSubjectNameSakeMaster
+# --field-end--
+# --field-start--
+fieldName=revisionNo
+# --field-end--
+# --field-start--
+fieldName=subRevTime
+# --field-end--
+# --field-start--
+fieldName=subject
+# --field-end--
+# --field-start--
+fieldName=idIndex
+# --field-end--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.TestInfo
+tableName=testinfo
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=idTestLogMaster
+# --field-end--
+# --field-start--
+fieldName=comments
+# --field-end--
+# --field-start--
+fieldName=bookMarkName
+# --field-end--
+# --field-start--
+fieldName=timeOfCreation
+# --field-end--
+# --field-start--
+fieldName=endTest
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.Test
+tableName=test
+# --table-fields-start--
+# --field-start--
+fieldName=idTestLogMaster
+id=true
+# --field-end--
+# --field-start--
+fieldName=isTestEnd
+# --field-end--
+# --field-start--
+fieldName=negativeMarks
+# --field-end--
+# --field-start--
+fieldName=noOfQuestion
+# --field-end--
+# --field-start--
+fieldName=requireTime
+# --field-end--
+# --field-start--
+fieldName=strDate
+# --field-end--
+# --field-start--
+fieldName=takenTime
+# --field-end--
+# --field-start--
+fieldName=testId
+# --field-end--
+# --field-start--
+fieldName=idTestType
+# --field-end--
+# --field-start--
+fieldName=topics
+# --field-end--
+# --field-start--
+fieldName=questions
+foreignCollection=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.Question
+tableName=question
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=difficultyLevel
+# --field-end--
+# --field-start--
+fieldName=duration
+# --field-end--
+# --field-start--
+fieldName=explanation
+# --field-end--
+# --field-start--
+fieldName=idIndex
+# --field-end--
+# --field-start--
+fieldName=idQuestionMaster
+# --field-end--
+# --field-start--
+fieldName=idSubjectMaster
+# --field-end--
+# --field-start--
+fieldName=idTestLog
+# --field-end--
+# --field-start--
+fieldName=idTestLogMaster
+# --field-end--
+# --field-start--
+fieldName=idTopicMaster
+# --field-end--
+# --field-start--
+fieldName=marks
+# --field-end--
+# --field-start--
+fieldName=option1
+# --field-end--
+# --field-start--
+fieldName=option2
+# --field-end--
+# --field-start--
+fieldName=option3
+# --field-end--
+# --field-start--
+fieldName=option4
+# --field-end--
+# --field-start--
+fieldName=option5
+# --field-end--
+# --field-start--
+fieldName=optionSelected
+# --field-end--
+# --field-start--
+fieldName=outOf
+# --field-end--
+# --field-start--
+fieldName=questions
+# --field-end--
+# --field-start--
+fieldName=rightAnswer
+# --field-end--
+# --field-start--
+fieldName=subjectName
+# --field-end--
+# --field-start--
+fieldName=topicName
+# --field-end--
+# --field-start--
+fieldName=test
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.MasterForumTopic
+tableName=MasterForumTopicTbl
+# --table-fields-start--
+# --field-start--
+fieldName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=addedBy
+# --field-end--
+# --field-start--
+fieldName=addedDate
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=forumMasterID
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=imageUrl
+# --field-end--
+# --field-start--
+fieldName=importance
+# --field-end--
+# --field-start--
+fieldName=moderated
+# --field-end--
+# --field-start--
+fieldName=title
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.ForumTopic
+tableName=ForumTopicTbl
+# --table-fields-start--
+# --field-start--
+fieldName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=addedBy
+# --field-end--
+# --field-start--
+fieldName=addedDate
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=forumMasterID
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=imageUrl
+# --field-end--
+# --field-start--
+fieldName=importance
+# --field-end--
+# --field-start--
+fieldName=moderated
+# --field-end--
+# --field-start--
+fieldName=title
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.PreviousExam
+tableName=previousExamTbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=ExamYear
+# --field-end--
+# --field-start--
+fieldName=IdExam
+# --field-end--
+# --field-start--
+fieldName=IdPreviousExam
+# --field-end--
+# --field-start--
+fieldName=previousTest
+foreign=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.PreviousTest
+tableName=PeriviousTestTbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=ExamName
+# --field-end--
+# --field-start--
+fieldName=IdExam
+# --field-end--
+# --field-start--
+fieldName=IdTestType
+# --field-end--
+# --field-start--
+fieldName=previousExams
+foreignCollection=true
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.TemplateTest
+tableName=templateTestTbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=TemplateName
+# --field-end--
+# --field-start--
+fieldName=IdTemplateMaster
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.FixedTest
+tableName=fixedTestTbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=CreatedDate
+# --field-end--
+# --field-start--
+fieldName=IdFixedTestMaster
+# --field-end--
+# --field-start--
+fieldName=IdTestType
+# --field-end--
+# --field-start--
+fieldName=TestId
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.ForumThread
+tableName=ForumThreadTbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=AddedBy
+# --field-end--
+# --field-start--
+fieldName=AddedByIP
+# --field-end--
+# --field-start--
+fieldName=AddedDate
+# --field-end--
+# --field-start--
+fieldName=Approved
+# --field-end--
+# --field-start--
+fieldName=Body
+# --field-end--
+# --field-start--
+fieldName=Closed
+# --field-end--
+# --field-start--
+fieldName=ForumID
+# --field-end--
+# --field-start--
+fieldName=ForumMasterID
+# --field-end--
+# --field-start--
+fieldName=ForumTitle
+# --field-end--
+# --field-start--
+fieldName=Important
+# --field-end--
+# --field-start--
+fieldName=LastPostBy
+# --field-end--
+# --field-start--
+fieldName=LastPostDate
+# --field-end--
+# --field-start--
+fieldName=Name
+# --field-end--
+# --field-start--
+fieldName=ParentPost
+# --field-end--
+# --field-start--
+fieldName=ParentPostID
+# --field-end--
+# --field-start--
+fieldName=Photo
+# --field-end--
+# --field-start--
+fieldName=ReplyCount
+# --field-end--
+# --field-start--
+fieldName=StrAddedDate
+# --field-end--
+# --field-start--
+fieldName=StrLastPostDate
+# --field-end--
+# --field-start--
+fieldName=Title
+# --field-end--
+# --field-start--
+fieldName=UserName
+# --field-end--
+# --field-start--
+fieldName=ViewCount
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.ForumSubject
+tableName=ForumSubjectTbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+id=true
+# --field-end--
+# --field-start--
+fieldName=ForumMasterID
+# --field-end--
+# --field-start--
+fieldName=Importance
+# --field-end--
+# --field-start--
+fieldName=Moderated
+# --field-end--
+# --field-start--
+fieldName=AddedBy
+# --field-end--
+# --field-start--
+fieldName=AddedDate
+# --field-end--
+# --field-start--
+fieldName=Description
+# --field-end--
+# --field-start--
+fieldName=ImageUrl
+# --field-end--
+# --field-start--
+fieldName=StrAddedDate
+# --field-end--
+# --field-start--
+fieldName=Title
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.sudosaints.cmavidya.model.VideoInfo
+tableName=VideoInfoTbl
+# --table-fields-start--
+# --field-start--
+fieldName=idVideo
+id=true
+# --field-end--
+# --field-start--
+fieldName=commandType
+# --field-end--
+# --field-start--
+fieldName=count
+# --field-end--
+# --field-start--
+fieldName=description
+# --field-end--
+# --field-start--
+fieldName=duration
+# --field-end--
+# --field-start--
+fieldName=filePath
+# --field-end--
+# --field-start--
+fieldName=idCustomLevelMaster
+# --field-end--
+# --field-start--
+fieldName=idSubjectMaster
+# --field-end--
+# --field-start--
+fieldName=idTopicMaster
+# --field-end--
+# --field-start--
+fieldName=idVideoLog
+# --field-end--
+# --field-start--
+fieldName=isActive
+# --field-end--
+# --field-start--
+fieldName=priority
+# --field-end--
+# --field-start--
+fieldName=size
+# --field-end--
+# --field-start--
+fieldName=subjectName
+# --field-end--
+# --field-start--
+fieldName=topicName
+# --field-end--
+# --field-start--
+fieldName=totalTime
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

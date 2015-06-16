@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="#FFFFFF"
+		android:tag="front"
+		android:weightSum="100">
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="65"
+			android:orientation="vertical"
+			android:paddingBottom="8dp"
+			android:paddingLeft="12dp"
+			android:paddingRight="10dp"
+			android:paddingTop="8dp">
+
+			<TextView
+				android:id="@+id/forumTitleTV"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:ellipsize="marquee"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:scrollHorizontally="true"
+				android:focusable="false"
+				android:focusableInTouchMode="false"
+				android:textColor="@color/text_black"
+				android:textSize="14sp"/>
+
+			<TextView
+				android:id="@+id/forumdescTV"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:ellipsize="marquee"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:scrollHorizontally="true"
+				android:focusable="false"
+				android:focusableInTouchMode="false"
+				android:textColor="@color/gray"
+				android:textSize="12sp"/>
+		</LinearLayout>
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="5"
+			android:background="@drawable/left_gradient"/>
+
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="30"
+			android:orientation="vertical"
+			android:paddingTop="8dp">
+
+			<TextView
+				android:id="@+id/forumOwnerTV"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawablePadding="4dp"
+				android:paddingTop="4dp"
+				android:textColor="@color/text_black"
+				android:textSize="14sp"/>
+
+			<TextView
+				android:id="@+id/forumDateTV"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textColor="@color/gray"
+				android:textSize="12sp"/>
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>

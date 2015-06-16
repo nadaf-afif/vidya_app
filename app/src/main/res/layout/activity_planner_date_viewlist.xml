@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+	<RelativeLayout
+		android:id="@+id/plannerDateRelativeLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:background="@color/light_aplication_color">
+
+		<RelativeLayout
+			android:id="@+id/relativeLayout1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentRight="true"
+			android:layout_alignParentTop="true">
+
+			<TextView
+				android:id="@+id/plannerDateTextView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"
+				android:padding="10dp"
+				android:text="03"
+				android:textColor="@color/text_white"
+				android:textSize="45sp"/>
+
+			<ImageView
+				android:id="@+id/plannerDatePreImageView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:layout_toLeftOf="@+id/plannerDateTextView"
+				android:padding="16dp"
+				android:layout_marginRight="8dp"
+				android:src="@drawable/planner_pre_date"/>
+
+			<ImageView
+				android:id="@+id/plannerDateNxtImageView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:layout_marginLeft="8dp"
+				android:layout_toRightOf="@+id/plannerDateTextView"
+				android:padding="16dp"
+				android:src="@drawable/planner_next_date"/>
+		</RelativeLayout>
+
+		<TextView
+			android:id="@+id/plannerDateMnYTextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/relativeLayout1"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="-25dp"
+			android:padding="10dp"
+			android:text="JULY 2014"
+			android:textColor="@color/text_white"
+			android:textSize="12sp"/>
+	</RelativeLayout>
+
+	<!--  <ListView
+		  android:id="@+id/plannerDateListView"
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:layout_alignParentLeft="true"
+		  android:scrollbars="none"
+		  android:divider="@null"
+		  android:layout_below="@+id/plannerDateRelativeLayout" >
+	  </ListView>-->
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:layout_below="@+id/plannerDateRelativeLayout"
+		android:text="no plan"/>
+
+	<ListView
+		android:listSelector="#00000000"
+		android:id="@+id/plannerDateListView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:scrollbars="none"
+		android:divider="@null"
+		android:layout_below="@+id/plannerDateRelativeLayout"/>
+
+
+</RelativeLayout>

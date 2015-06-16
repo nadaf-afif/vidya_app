@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/rectangle_corner_gary">
+
+        <TextView
+            android:id="@+id/calenderRowMonthTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:text="TextView"
+            android:textAllCaps="true"
+            android:textColor="@color/text_black"
+            android:textSize="18sp" />
+
+        <View
+            android:id="@+id/calendeRowGrayView"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/calenderRowMonthTextView"
+            android:background="#E7E7E7" />
+
+
+        <com.sudosaints.cmavidya.views.CustomGridView
+            android:id="@+id/calenderRowGridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/calendeRowGrayView"
+            android:layout_below="@+id/calenderRowMonthTextView"
+            android:numColumns="7"
+            android:scrollbars="none"></com.sudosaints.cmavidya.views.CustomGridView>
+
+        <View
+            android:id="@+id/calenderRowGreenView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            android:layout_below="@+id/calenderRowGridView"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/yellow" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/calenderRowGreenView"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/green_half_circle" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

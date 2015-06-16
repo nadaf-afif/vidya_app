@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+	<LinearLayout
+		android:padding="8dp"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_marginTop="12dp"
+			android:textSize="16sp"
+			android:textColor="@color/text_black"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/overall_score"/>
+
+		<HorizontalScrollView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+
+			<TableLayout
+				android:id="@+id/reportOverallScoreTL"
+				android:showDividers="middle"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:id="@+id/tableRow1"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/total_questions"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/attempted"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/not_attempted"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/negative_marks"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/total_marks"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/out_of_marks"/>
+
+
+				</TableRow>
+			</TableLayout>
+		</HorizontalScrollView>
+
+		<TextView
+			android:layout_marginTop="12dp"
+			android:textSize="16sp"
+			android:textColor="@color/text_black"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/sectional_analysis"/>
+
+		<HorizontalScrollView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TableLayout
+				android:id="@+id/sectionalTL"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:id="@+id/tableRow12"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/subject_name"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/total_questions"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/attempted"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/not_attempted"/>
+
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/total_marks"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/out_of_marks"/>
+
+
+				</TableRow>
+			</TableLayout>
+		</HorizontalScrollView>
+
+		<TextView
+			android:layout_marginTop="12dp"
+			android:textSize="16sp"
+			android:textColor="@color/text_black"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/questionwise_analysis"/>
+
+		<HorizontalScrollView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<TableLayout
+				android:id="@+id/questionWiseTL"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+				<TableRow
+					android:id="@+id/tableRow13"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent">
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:gravity="center"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/ques_no"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/option_selected"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="@string/right_answer"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						android:text="@string/status"/>
+
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						android:text="@string/marks"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="@string/out_of_mark"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						android:text="@string/subject_name"/>
+
+					<TextView
+						android:background="@drawable/rounded_corner_purple"
+						android:padding="12dp"
+						android:textSize="16sp"
+						android:textColor="@color/text_white"
+						android:layout_width="wrap_content"
+						android:layout_height="fill_parent"
+						android:text="@string/topic_name"/>
+
+
+				</TableRow>
+			</TableLayout>
+		</HorizontalScrollView>
+
+	</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="90">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="30"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:background="@color/text_white">
+
+        <FrameLayout
+            android:id="@+id/book1FL"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:padding="2dp">
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/book1IV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/down_up_gradient"
+                android:layout_gravity="bottom" />
+
+            <TextView
+                android:id="@+id/book1TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textColor="@color/text_white"
+                android:textSize="15sp"
+                android:padding="8dp" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/book2FL"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:padding="2dp">
+
+            <ImageView
+                android:adjustViewBounds="true"
+
+                android:id="@+id/book2IV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <ImageView
+
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/down_up_gradient"
+                android:layout_gravity="bottom" />
+
+            <TextView
+                android:id="@+id/book2TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textColor="@color/text_white"
+                android:textSize="15sp"
+                android:padding="8dp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="30"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:background="@color/text_white">
+
+        <FrameLayout
+            android:id="@+id/book3FL"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:padding="2dp">
+
+            <ImageView
+                android:adjustViewBounds="true"
+
+                android:id="@+id/book3IV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/down_up_gradient"
+                android:layout_gravity="bottom" />
+
+            <TextView
+                android:id="@+id/book3TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textColor="@color/text_white"
+                android:textSize="15sp"
+                android:padding="8dp" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/book4FL"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:padding="2dp">
+
+            <ImageView
+                android:adjustViewBounds="true"
+
+                android:id="@+id/book4IV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <ImageView
+
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/down_up_gradient"
+                android:layout_gravity="bottom" />
+
+            <TextView
+                android:id="@+id/book4TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textColor="@color/text_white"
+                android:textSize="15sp"
+                android:padding="8dp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="30"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:background="@color/text_white">
+
+        <FrameLayout
+            android:id="@+id/book5FL"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:padding="2dp">
+
+            <ImageView
+                android:adjustViewBounds="true"
+
+                android:id="@+id/book5IV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/down_up_gradient"
+                android:layout_gravity="bottom" />
+
+            <TextView
+                android:id="@+id/book5TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textColor="@color/text_white"
+                android:textSize="15sp"
+                android:padding="8dp" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/book6FL"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:padding="2dp">
+
+            <ImageView
+                android:adjustViewBounds="true"
+
+                android:id="@+id/book6IV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <ImageView
+
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/down_up_gradient"
+                android:layout_gravity="bottom" />
+
+            <TextView
+                android:id="@+id/book6TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center"
+                android:textColor="@color/text_white"
+                android:textSize="15sp"
+                android:padding="8dp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

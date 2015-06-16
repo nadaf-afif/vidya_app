@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:padding="8dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/rounded_top_corner_solid_yellow"
+		android:weightSum="100"
+		android:orientation="horizontal"
+		android:padding="8dp"
+		android:gravity="bottom">
+
+		<TextView
+			android:layout_marginLeft="4dp"
+			android:layout_weight="65"
+			android:layout_width="0dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:textColor="@color/text_white"
+			android:textSize="16sp"
+			android:text="@string/topics"/>
+
+		<TextView
+			android:layout_weight="35"
+			android:layout_width="0dp"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:textColor="@color/text_white"
+			android:textSize="16sp"
+			android:text="@string/added_by"/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_marginTop="-4dp"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:paddingRight="4dp"
+		android:paddingLeft="4dp"
+		android:paddingBottom="4dp"
+		android:background="@drawable/rounded_bottom_corner_yellow">
+
+		<!--<ScrollView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical">
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+				<include layout="@layout/row_item_forum_topic"/>
+
+
+			</LinearLayout>
+		</ScrollView>-->
+		<ListView
+			android:id="@+id/forumTopicLV"
+			android:layout_marginTop="4dp"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"></ListView>
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="5"
+		android:background="@drawable/left_gradient"/>
+</LinearLayout>

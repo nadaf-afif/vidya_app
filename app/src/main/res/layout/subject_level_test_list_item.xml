@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_corner_gary"
+    android:paddingLeft="4dp"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black"
+        android:text="@string/subject_name" />
+
+    <TextView
+        android:id="@+id/subjectNameTV"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        style="@style/boldText"
+        android:textColor="@color/text_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/difficultySpinner"
+            android:layout_margin="4dp"
+            android:layout_weight="65"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_black"
+            android:drawableRight="@drawable/gray_dots" />
+
+        <Spinner
+            android:id="@+id/numberSpinner"
+            android:layout_margin="4dp"
+            android:layout_weight="35"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_black"
+            android:hint="@string/number"
+            android:drawableRight="@drawable/gray_dots" />
+
+    </LinearLayout>
+
+    <!--
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/text_black" />-->
+
+
+</LinearLayout>

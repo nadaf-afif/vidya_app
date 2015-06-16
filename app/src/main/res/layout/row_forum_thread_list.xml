@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_height="wrap_content"
+			  android:layout_width="match_parent"
+			  android:paddingBottom="8dp"
+	>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				  android:orientation="vertical"
+				  android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:paddingBottom="4dp"
+				  android:layout_margin="4dp"
+				  android:background="@drawable/rounded_bottom_corner_yellow">
+
+		<TextView
+			android:background="@drawable/rounded_corner_solid_dark_yellow"
+			android:paddingLeft="8dp"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="@string/title"
+			android:textColor="@color/text_black"
+			android:textSize="18sp"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:weightSum="100"
+			android:padding="4dp">
+
+			<ImageView
+				android:id="@+id/threadImageIV"
+				android:layout_marginLeft="4dp"
+				android:adjustViewBounds="true"
+				android:layout_weight="20"
+				android:src="@drawable/forum"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"/>
+
+			<LinearLayout
+				android:padding="4dp"
+				android:layout_weight="80"
+				android:layout_height="fill_parent"
+				android:layout_width="0dp"
+				android:gravity="center_vertical"
+				android:orientation="vertical">
+
+				<TextView
+					android:id="@+id/threadTitleTV"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="16sp"
+					android:textColor="@color/text_black"
+					android:text="Demo Title"/>
+
+				<TextView
+					android:id="@+id/threadAddedBy"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="14sp"
+					android:textColor="@color/gray"
+					android:text="by indraneel.khamitkar@gmail.com "/>
+
+				<TextView
+					android:id="@+id/threadAddedOn"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:textSize="14sp"
+					android:textColor="@color/gray"
+					android:text="Friday, 02-Jan, 2015 03:50 AM"/>
+
+			</LinearLayout>
+
+
+		</LinearLayout>
+
+		<TextView
+			android:background="@drawable/rounded_corner_solid_dark_yellow"
+			android:paddingLeft="8dp"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="@string/last_post"
+			android:textColor="@color/text_black"
+			android:textSize="18sp"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:padding="4dp">
+
+			<TextView
+				android:id="@+id/threadLastPostBy"
+				android:layout_margin="4dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="14sp"
+				android:textColor="@color/text_black"
+				android:text="by indraneel.khamitkar@gmail.com "/>
+
+			<TextView
+				android:id="@+id/threadLastPostOn"
+				android:layout_margin="4dp"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:textSize="14sp"
+				android:textColor="@color/text_black"
+				android:text="Friday, 02-Jan, 2015 03:50 AM"/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/rounded_corner_solid_dark_yellow"
+			android:orientation="horizontal"
+			android:weightSum="100"
+			>
+
+			<TextView
+				android:paddingLeft="8dp"
+				android:layout_width="0dp"
+				android:layout_weight="50"
+				android:layout_height="wrap_content"
+				android:text="@string/replies"
+				android:textColor="@color/text_black"
+				android:textSize="18sp"/>
+
+			<TextView
+				android:paddingLeft="8dp"
+				android:layout_width="0dp"
+				android:layout_weight="50"
+				android:layout_height="wrap_content"
+				android:text="@string/views"
+				android:textColor="@color/text_black"
+				android:textSize="18sp"/>
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:weightSum="100"
+			>
+
+			<TextView
+				android:id="@+id/threadRepliesCount"
+				android:paddingLeft="8dp"
+				android:layout_width="0dp"
+				android:layout_weight="50"
+				android:layout_height="wrap_content"
+				android:text="1"
+				android:textColor="@color/text_black"
+				android:textSize="18sp"/>
+
+			<TextView
+				android:id="@+id/threadViewsCount"
+				android:paddingLeft="8dp"
+				android:layout_width="0dp"
+				android:layout_weight="50"
+				android:layout_height="wrap_content"
+				android:text="5"
+				android:textColor="@color/text_black"
+				android:textSize="18sp"/>
+		</LinearLayout>
+
+
+	</LinearLayout>
+</LinearLayout>

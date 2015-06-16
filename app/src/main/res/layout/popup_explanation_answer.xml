@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:background="@drawable/rounded_corner_gary"
+			android:padding="8dp"
+	>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				  android:orientation="vertical"
+				  android:layout_width="wrap_content"
+				  android:layout_height="match_parent">
+
+		<View
+			android:layout_width="800dp"
+			android:layout_height="0dp"/>
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/text_black"
+			android:text="@string/explanation"/>
+
+		<WebView
+			android:layout_marginTop="4dp"
+			android:id="@+id/popupExplanationAnswerWV"
+			android:layout_width="fill_parent"
+			android:layout_height="600dp"
+			android:background="@drawable/rounded_corner_gary"/>
+
+		<Button
+			android:id="@+id/popupExplanationOkBtn"
+			android:layout_marginTop="8dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/ok"
+			android:background="@drawable/rounded_corner_solid_dark_yellow"/>
+
+
+	</LinearLayout>
+</ScrollView>

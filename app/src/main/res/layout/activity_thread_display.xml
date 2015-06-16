@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="vertical"
+				android:padding="8dp"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+
+	<TextView
+		android:gravity="center"
+		android:textSize="16sp"
+		android:textColor="@color/text_black"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/thread"
+		android:id="@+id/textView4"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignBottom="@+id/tdTopicName"/>
+
+	<TextView
+		android:textSize="18sp"
+		android:textColor="@color/text_black"
+		android:layout_marginLeft="8dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tdTopicName"
+		android:layout_alignParentTop="true"
+		android:layout_toRightOf="@+id/textView4"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"/>
+
+	<TextView
+		android:layout_marginTop="8dp"
+		android:gravity="center"
+		android:padding="8dp"
+		android:background="@drawable/rounded_corner_solid_light_yellow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tdThreadName"
+		android:layout_below="@+id/tdTopicName"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"/>
+
+	<TextView
+		android:gravity="center"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:padding="8dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Post Reply"
+		android:id="@+id/tdPostReply"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"/>
+
+	<ListView
+		android:layout_marginRight="-4dp"
+		android:layout_marginLeft="-4dp"
+		android:layout_marginTop="4dp"
+		android:layout_marginBottom="4dp"
+		android:divider="@null"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/tdListView"
+		android:layout_below="@+id/tdThreadName"
+		android:layout_above="@+id/tdPostReply"
+		android:layout_alignRight="@+id/tdPostReply"
+		android:layout_alignEnd="@+id/tdPostReply"
+		android:layout_alignLeft="@+id/tdPostReply"
+		android:layout_alignStart="@+id/tdPostReply"/>
+
+
+</RelativeLayout>

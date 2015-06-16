@@ -1,0 +1,4 @@
+include ':app', ':Mupdf'
+include ':arcMenuLibrary'
+include ':aphidFlipViewLibrary'
+

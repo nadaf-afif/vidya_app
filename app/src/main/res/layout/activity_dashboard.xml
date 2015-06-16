@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/text_white" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="37" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/dashboardPlannerButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@color/text_white"
+                android:drawablePadding="12dp"
+                android:drawableTop="@drawable/planner"
+                android:padding="12dp"
+                android:text="@string/planner"
+                android:textColor="@color/action_bar_background_blue" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/light_aplication_color" />
+
+            <Button
+                android:id="@+id/dashboardKeynotesButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@color/text_white"
+                android:drawablePadding="12dp"
+                android:drawableTop="@drawable/keynotes"
+                android:padding="12dp"
+                android:text="@string/keynotes"
+                android:textColor="@color/action_bar_background_blue" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/light_aplication_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/dashboardTestSeriesButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@color/text_white"
+                android:drawablePadding="12dp"
+                android:drawableTop="@drawable/test_series"
+                android:padding="12dp"
+                android:text="@string/testseries"
+                android:textColor="@color/action_bar_background_blue" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/light_aplication_color" />
+
+            <Button
+                android:id="@+id/dashboardVideosButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@color/text_white"
+                android:drawablePadding="12dp"
+                android:drawableTop="@drawable/videos"
+                android:padding="12dp"
+                android:text="@string/videos"
+                android:textColor="@color/action_bar_background_blue" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/light_aplication_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/dashboardForumButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@color/text_white"
+                android:drawablePadding="12dp"
+                android:drawableTop="@drawable/forum"
+                android:padding="12dp"
+                android:text="@string/forum"
+                android:textColor="@color/action_bar_background_blue" />
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="@color/light_aplication_color" />
+
+            <Button
+                android:id="@+id/dashboardDownloadsButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="@color/text_white"
+                android:drawablePadding="12dp"
+                android:drawableTop="@drawable/download"
+                android:padding="12dp"
+                android:text="@string/download"
+                android:textColor="@color/action_bar_background_blue" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/light_aplication_color" />
+
+        <Button
+            android:id="@+id/dashboardNotificationsButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@color/text_white"
+            android:drawablePadding="12dp"
+            android:drawableTop="@drawable/notification"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/notifications"
+            android:textColor="@color/action_bar_background_blue" />
+    </LinearLayout>
+
+</ScrollView>

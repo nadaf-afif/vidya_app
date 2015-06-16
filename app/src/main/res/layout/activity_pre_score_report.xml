@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				  android:orientation="vertical"
+				  android:layout_width="match_parent"
+				  android:layout_height="match_parent"
+				  android:padding="8dp">
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:padding="8dp"
+			android:background="@drawable/rounded_corner_gary">
+
+			<ImageView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:adjustViewBounds="true"
+				android:src="@drawable/testb"/>
+
+			<TextView
+				android:textColor="@color/text_black"
+				android:textSize="18sp"
+				android:layout_marginLeft="8dp"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:gravity="center"
+				android:text="Score Analysis"/>
+		</LinearLayout>
+
+		<TextView
+			android:textSize="16sp"
+			android:textColor="@color/text_black"
+			android:layout_marginTop="8dp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/test_type"/>
+
+		<Spinner
+			android:id="@+id/testTypeSP"
+			android:layout_marginTop="4dp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+
+		<TextView
+			android:textSize="16sp"
+			android:textColor="@color/text_black"
+			android:layout_marginTop="8dp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/difficulty"/>
+
+		<Spinner
+			android:id="@+id/difficultyLevelSP"
+			android:layout_marginTop="4dp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+
+
+		<Button
+			android:layout_margin="8dp"
+			android:background="@drawable/rounded_corner_solid_dark_yellow"
+			android:id="@+id/scoreCreateReportBtn"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/create_report"/>
+
+
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:padding="16dp">
+
+	<Button
+		android:layout_margin="8dp"
+		android:id="@+id/reportTestBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:text="@string/test"/>
+
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/reportScoreBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/score"/>
+
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/reportSubjectBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/subject"/>
+
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/reportTopicBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/topic"/>
+	<Button
+		android:layout_margin="8dp"
+		android:background="@drawable/rounded_corner_solid_dark_yellow"
+		android:id="@+id/reportUpdateBtn"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Update"/>
+
+
+</LinearLayout>

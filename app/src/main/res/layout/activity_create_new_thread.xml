@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:background="@drawable/rounded_bottom_corner_yellow">
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/text_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/textView"/>
+
+    <EditText
+        android:textSize="16sp"
+        android:textColor="@color/text_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newThreadTitleET"
+        android:maxLines="2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"/>
+
+    <View
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/yellow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/newThreadTitleET"
+        android:layout_alignEnd="@+id/newThreadTitleET"
+        android:layout_below="@+id/newThreadTitleET"
+        android:layout_marginLeft="-8dp"
+        android:layout_marginRight="-8dp"
+        android:id="@+id/hrView"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/text_black"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body"
+        android:id="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/hrView"
+        android:layout_alignRight="@+id/newThreadTitleET"
+        android:layout_alignEnd="@+id/newThreadTitleET"/>
+
+    <WebView
+        android:gravity="start"
+        android:textSize="16sp"
+        android:textColor="@color/text_black"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/newThreadBodyET"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_above="@+id/newThreadcheckBox"/>
+
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/text_black"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="@drawable/rounded_corner_solid_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:id="@+id/newThreadCreate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/newThreadBodyET"
+        android:layout_alignEnd="@+id/newThreadBodyET"/>
+
+    <CheckBox
+        android:textSize="16sp"
+        android:textColor="@color/text_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do not allow replies to this thread"
+        android:id="@+id/newThreadcheckBox"
+        android:layout_above="@+id/newThreadCreate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/newThreadCreate"
+        android:layout_alignEnd="@+id/newThreadCreate"/>
+
+
+</RelativeLayout>

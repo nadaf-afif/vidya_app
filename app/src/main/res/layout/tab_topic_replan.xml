@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject"
+        android:textColor="@color/text_black"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/topicReplanSubjectSpinner"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black" />
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/revision_no"
+        android:textColor="@color/text_black"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/topicReplanRevisionNoSpinner"
+        android:layout_margin="4dp"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black" />
+
+    <com.sudosaints.cmavidya.views.DynamicTopictListView
+        android:id="@+id/topicReplanList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dp"
+        android:divider="@null"
+        android:dividerHeight="4dp"
+        android:scrollbars="none" />
+</LinearLayout>

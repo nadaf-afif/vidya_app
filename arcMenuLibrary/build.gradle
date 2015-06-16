@@ -1,0 +1,16 @@
+apply plugin: 'android-library'
+
+android {
+    compileSdkVersion 8
+    buildToolsVersion "19.1.0"
+
+    defaultConfig {
+        minSdkVersion 1
+    }
+
+    buildTypes {
+        release {
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}

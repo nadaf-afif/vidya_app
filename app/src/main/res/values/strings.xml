@@ -1,0 +1,215 @@
+<resources>
+
+	<string name="server_url">http://www.cavidya.com/Service</string>
+	<bool name="isDebugEnabled">false</bool>
+
+	<integer name="Hours_24_mills">86399999</integer>
+
+	<string name="app_name"><b>CA</b>Vidya</string>
+	<string name="emailaddr">Email Address</string>
+	<string name="password">Password</string>
+	<string name="hintemail">hello@example.com</string>
+	<string name="hintpassword">Password</string>
+	<string name="confirmhintpassword">Confirm Password</string>
+	<string name="forgetpass">Forgot Password ?</string>
+	<string name="signin">Sign In</string>
+	<string name="register">Register</string>
+	<string name="continue_str">Continue</string>
+	<string name="use_guest">Use as a guest</string>
+	<string name="not_member">Not a member yet?</string>
+	<string name="username">UserName</string>
+	<string name="firstname">FirstName</string>
+	<string name="lastname">LastName</string>
+	<string name="selectcourse">Select Course</string>
+	<string name="search_by_words">Search by words...</string>
+	<string name="planner">PLANNER</string>
+	<string name="keynotes">KEYNOTES</string>
+	<string name="testseries">TEST SERIES</string>
+	<string name="videos">VIDEOS</string>
+	<string name="forum">FORUM</string>
+	<string name="download">DOWNLOADS</string>
+	<string name="notifications">NOTIFICATIONS</string>
+	<string name="monthly_view">Monthly View</string>
+	<string name="scanner">Scanner</string>
+	<string name="prePone">Prepone</string>
+	<string name="postPone">Postpone</string>
+	<string name="pause">Pause</string>
+	<string name="postponeByDay">Postpone by day</string>
+	<string name="Replan">Replan</string>
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="Select_subject">Select Subject</string>
+	<string name="subject_name">Subject Name</string>
+	<string name="subject">Subject</string>
+	<string name="revision_no">Revision No.</string>
+	<string name="topic_name">Topic Name</string>
+	<string name="difficulty">Difficulty level</string>
+	<string name="number">Number</string>
+	<string name="theory_test">Theory Test</string>
+	<string name="mcq_test">MCQ. Test</string>
+	<string name="proceed">Proceed for Test</string>
+	<string name="create_test">Create Test</string>
+	<string name="replan">Replan</string>
+	<string name="question">Question </string>
+	<string name="options">Options</string>
+	<string name="next">Next</string>
+	<string name="back">Back</string>
+	<string name="end">End</string>
+	<string name="explanation">Explanation</string>
+	<string name="coming_soon"><b>COMING SOON...</b></string>
+	<string name="topics">Topics</string>
+	<string name="added_by">AddedBy</string>
+	<string name="title">Title</string>
+	<string name="last_post">Last Post</string>
+	<string name="replies">Replies</string>
+	<string name="views">Views</string>
+	<string name="custom_test">Custom Test</string>
+	<string name="template_test">Template Test</string>
+	<string name="previous_test">Previous Test</string>
+	<string name="fixed_test">Fixed Test</string>
+	<string name="resume_test">Resume Test</string>
+	<string name="report_test">Reports</string>
+	<string name="please_select_the_type_of_test_you_want_to_take">Please select the type of test you want to take?</string>
+	<string name="exam_name">Select Exam Name</string>
+	<string name="exam_year">Select Exam Year</string>
+	<string name="add_event">Add Event</string>
+	<string name="enter_event_title">Enter Event Title</string>
+	<string name="my_planner_inputs">My Planner Inputs</string>
+	<string name="understanding">Understanding %</string>
+	<string name="test">Test</string>
+	<string name="score">Score</string>
+	<string name="topic">Topic</string>
+	<string name="test_type">Test Type</string>
+	<string name="Test_name">Test Name</string>
+	<string name="create_report">Create Report</string>
+	<string name="total_questions">Total Questions</string>
+	<string name="attempted">Attempted</string>
+	<string name="not_attempted">Not Attempted</string>
+	<string name="negative_marks">Negative Marks</string>
+	<string name="total_marks">Total Marks</string>
+	<string name="out_of_marks">Out Of Marks</string>
+	<string name="overall_score">Overall Score:</string>
+	<string name="sectional_analysis">Sectional Analysis:</string>
+	<string name="questionwise_analysis">Questionwise Analysis:</string>
+	<string name="ques_no">Ques.\nNo.</string>
+	<string name="option_selected">Option\nSelected</string>
+	<string name="right_answer">Right\nAnswer</string>
+	<string name="status">Status</string>
+	<string name="marks">Marks</string>
+	<string name="out_of_mark">Out Of\nMarks</string>
+	<string name="difficulty_level_of_questions">Difficulty Level of Questions</string>
+	<string name="avg_score">Average\nScore (%)</string>
+	<string name="high_score">Highest\nScore (%)</string>
+	<string name="low_score">Lowest\nScore (%)</string>
+	<string name="sr_no">Sr. No.</string>
+	<string name="test_id">Test Id</string>
+	<string name="difficulty_level">Difficulty\nLevel</string>
+	<string name="total_question">Total\nQuestion</string>
+	<string name="total_difficulty_level_question">Total Difficulty\nLevel Question</string>
+	<string name="attempted_question">Attempted\nQuestion</string>
+	<string name="correct_answer">Correct\nAnswer</string>
+	<string name="test_score_per">Test\nScore (%)</string>
+
+
+	<string-array name="difficulties">
+		<item>Shuffle</item>
+		<item>Easy</item>
+		<item>Medium</item>
+		<item>Hard</item>
+	</string-array>
+
+	<string-array name="difficultie_level">
+		<item>All Levels</item>
+		<item>Easy</item>
+		<item>Medium</item>
+		<item>Hard</item>
+	</string-array>
+
+	<string-array name="test_type">
+		<item>MCQ</item>
+		<item>Theory</item>
+	</string-array>
+
+	<integer-array name="quantity_questions">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+		<item>11</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+	</integer-array>
+
+	<integer-array name="understing_per">
+		<item>10</item>
+		<item>20</item>
+		<item>30</item>
+		<item>40</item>
+		<item>50</item>
+		<item>60</item>
+		<item>70</item>
+		<item>80</item>
+		<item>90</item>
+		<item>100</item>
+	</integer-array>
+
+
+	<color name="action_bar_background_blue">#5B1C5A</color>
+	<color name="text_white">#ffffff</color>
+	<color name="text_black">#000000</color>
+	<color name="text_gray">#E7E7E7</color>
+	<color name="lite_gray">#D3D3D3</color>
+	<color name="gray">#9b9b9c</color>
+	<color name="yellow">#FEB811</color>
+	<color name="planner_row_odd">#f9f6ee</color>
+	<color name="planner_row_even">#f2ecdb</color>
+	<color name="user_event">#f9b41d</color>
+	<color name="user_event_odd">#BBf9b41d</color>
+	<color name="calendar_base_background_color">#F1F1F1</color>
+	<color name="calendar_days_color">#255C9B</color>
+	<color name="calendar_background_color">#303030</color>
+	<color name="app_color">#5C1C59</color>
+	<color name="week_days_text_color">#4C5D77</color>
+	<color name="light_aplication_color">#925892</color>
+	<color name="light_purple">#F2DAF2</color>
+
+	<!-- Commons -->
+	<color name="background_app">#dedede</color>
+
+	<color name="background_list_back">#e3e3e3</color>
+	<color name="background_list_front">#ffffff</color>
+	<color name="text_title">#444444</color>
+	<color name="text_description">#7e7e7e</color>
+
+	<color name="line">#ffbcbcbc</color>
+
+	<color name="background_new_tag">#ff0000</color>
+	<color name="text_new_tag">#ffffff</color>
+
+
+
+
+
+
+
+    <string name="para"><p>Cupcake ipsum dolor sit amet sweet I love. Biscuit cake jelly. Donut fruitcake pie ice cream topping dragée. Biscuit chupa chups candy danish tart cotton candy apple pie. Tiramisu chocolate cake caramels biscuit fruitcake bonbon liquorice I love fruitcake.</p><br>Powder cheesecake macaroon liquorice. Ice cream tiramisu cookie bear claw biscuit gingerbread. Cookie gingerbread chocolate bar marzipan croissant jelly. I love tiramisu I love jujubes sugar plum liquorice halvah dessert. Gingerbread sesame snaps I love unerdwear.com sesame snaps. Marzipan soufflé brownie oat cake liquorice halvah cake bear claw. I love pie pie. Macaroon cotton candy jelly gummi bears dessert. Topping sweet muffin I love I love cheesecake cheesecake cake.
+Biscuit sesame snaps I love jelly beans bear claw sesame snaps powder applicake topping.</br> Caramels pastry candy canes cotton candy cotton candy sweet chupa chups gummies. Biscuit gummies tart cake. Unerdwear.com brownie gingerbread carrot cake bonbon tart jelly-o sesame snaps. Lollipop jelly dessert chocolate cake sesame snaps. Marzipan chocolate jujubes. Sesame snaps gummi bears sweet roll danish fruitcake chocolate bar. Toffee I love toffee liquorice icing unerdwear.com. Ice cream bear claw pudding. Danish sweet marzipan croissant candy canes soufflé cake cookie jelly. Donut pie fruitcake bonbon candy canes apple pie I love fruitcake. I love cake topping jelly-o cotton candy sweet roll. Applicake dessert marzipan jujubes danish jujubes gummi bears tart jelly.
+Tiramisu muffin bonbon apple pie. Jujubes brownie brownie applicake sugar plum chocolate. Cupcake bear claw chocolate. Jelly-o cookie soufflé icing pie cotton candy. Gingerbread carrot cake cheesecake jelly-o halvah wafer liquorice soufflé cake. Muffin I love topping muffin cupcake carrot cake jujubes. Liquorice croissant I love pudding gummies tiramisu tootsie roll oat cake tart. Pudding marshmallow jujubes I love topping. Marshmallow donut unerdwear.com candy canes chocolate cake. Lollipop fruitcake I love lollipop gummies. Biscuit I love biscuit tootsie roll apple pie. Jelly-o danish gingerbread apple pie chocolate bar ice cream candy canes sweet apple pie.
+I love gingerbread tart jelly beans sweet sugar plum. Candy apple pie chocolate bar danish dessert gummi bears sweet. I love gummi bears oat cake I love muffin. Caramels lemon drops croissant macaroon. Apple pie caramels macaroon candy canes. Bonbon fruitcake biscuit sesame snaps gummi bears biscuit jujubes cotton candy. Chocolate bar sugar plum marshmallow jelly ice cream I love lollipop. Cookie bonbon I love danish. Lollipop powder bear claw I love muffin ice cream wafer jelly-o. Toffee cupcake gummies I love tart. Tart icing gummies gummies. Jujubes jelly beans tootsie roll.
+Chocolate bar jelly pie sugar plum. Biscuit wafer bonbon jelly beans chocolate ice cream applicake muffin cotton candy. Jujubes cookie I love topping dragée applicake pudding bear claw macaroon. Croissant tootsie roll cookie donut lemon drops I love fruitcake fruitcake I love. Sugar plum jelly chocolate bar marshmallow candy jujubes I love ice cream pudding. Marshmallow icing donut pudding. Sugar plum cookie cotton candy lemon drops. Ice cream pudding carrot cake. Gingerbread sweet roll I love marzipan macaroon. Macaroon fruitcake liquorice chocolate sweet roll biscuit pudding candy marzipan. Oat cake I love jelly chocolate I love. Gingerbread tiramisu jelly-o I love cotton candy sugar plum halvah macaroon icing. Croissant applicake sesame snaps jelly beans I love macaroon gummies I love tiramisu.</string>
+
+</resources>
