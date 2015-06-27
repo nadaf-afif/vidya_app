@@ -2,53 +2,53 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-core-asl\1.9.11\e32303ef8bd18a5c9272780d49b81c95e05ddf43\jackson-core-asl-1.9.11.jar"
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.2.1\a18ff12a9ab5ae52fd30d42f134517997568231e\eventbus-2.2.1.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="e32303ef8bd18a5c9272780d49b81c95e05ddf43">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\jackson-core-asl-1.9.11-7537041df561d8ffd9b1f94e4727f126708e4f04.jar" />
+        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\eventbus-2.2.1-ce3ea1be8461ab35b90e4f9797e9d6bf19f574fd.jar" />
     </item>
     <item
-        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\vidya_app\arcMenuLibrary\unspecified\classes.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="4c7fcc13ea3d01da85707de3492224d3c1527b51">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-9cc0fadbd3ffc66621d808f58da05ed9c102d82e.jar" />
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-f07b84b91cef157c3b3505f05964d0d9bdcb7cfc.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\gson-2.3-5fcbd623f728570caca65afac33b46d60c4451d1.jar" />
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-ae26c4823a0f3a21740977f2b6ca9e705c45818a.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-6f54eeb479407d6f69cf10b5b62e44b02e993532.jar" />
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-6153e7f654afef31de92497b49e1b61dd4e3f187.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.1.0\9b51f7d0c19f179b52beab7cb433f8ba5cf786a4\okhttp-2.1.0.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="9b51f7d0c19f179b52beab7cb433f8ba5cf786a4">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\okhttp-2.1.0-96ca74196e07f7ed80ca828e0a5834b22dd94a20.jar" />
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-d0b0f602ebacaca9862599c6d5cd59f8274782df.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.48\afa06f539a4026c10b247386312aa67404b80a16\ormlite-android-4.48.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="afa06f539a4026c10b247386312aa67404b80a16">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\ormlite-android-4.48-b90fa1a5bc4de34d0906436d4b283749878327e9.jar" />
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-3a1785c71ab945d9e30f4c8878e538187e2e20c8.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.0.1\39eff75ddcb987ff65888361a29f489c178429a3\okio-1.0.1.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="39eff75ddcb987ff65888361a29f489c178429a3">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\okio-1.0.1-ec22f5adfd5845db99d68d7041fc05e4b642911f.jar" />
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-73a7bc32a5bc0abb3579a31e3d44d9c192e9d0ee.jar" />
     </item>
     <item
         jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\1.8.0\a517f29ed06be2b2879524fcd94b6e9b36e2e0b5\retrofit-1.8.0.jar"
@@ -58,18 +58,123 @@
         <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\retrofit-1.8.0-298c0fb92716d753b115188c30be86478a3d7c00.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v13\19.1.0\support-v13-19.1.0.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="6b852a232f642c75a7fdfc7212b841b8c8f8959c">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\support-v13-19.1.0-df23695dfae692f3caf612e83cf93ced25ad98a5.jar" />
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-9ff6ad19b0096bf55be3b9474c569f57775b6ffb.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-mapper-asl\1.9.13\1ee2f2bed0e5dd29d1cb155a166e6f8d50bbddb7\jackson-mapper-asl-1.9.13.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-8d83a8eb8c0cfd755ce7ec8c90a944d04199ec68.jar" />
+        sha1="1ee2f2bed0e5dd29d1cb155a166e6f8d50bbddb7">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\jackson-mapper-asl-1.9.13-b4c1846e87293346c5386ac2f6b435c8a1f90291.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3\5fc52c41ef0239d1093a1eb7c3697036183677ce\gson-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\gson-2.3-5fcbd623f728570caca65afac33b46d60c4451d1.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-682d595def113f7dcb584424c6e27b6a700a684b.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\vidya_app\aphidFlipViewLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7352e92dbb7b0d62234c79f033fc18d43795f751">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-8f0f25bcca3cdd9874e05c36ee1c5d61bed429fc.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-5cb8e607e864072934072ed608aaf361da2aafa1.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-cb847de525380339ae9845062a6829e0039f933e.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.joanzapata.pdfview\android-pdfview\1.0.4\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="df559ab8a9d5d44cf0a49dbb2be402637b90ba90">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-8ca39d96e5b8c0da502c21f2d6dd0c270fc55bbe.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\4.48\afa06f539a4026c10b247386312aa67404b80a16\ormlite-android-4.48.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afa06f539a4026c10b247386312aa67404b80a16">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\ormlite-android-4.48-b90fa1a5bc4de34d0906436d4b283749878327e9.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-2c5049bdd07c5a4e38e72209ee408483ef333706.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="27bbd3982cdfe4468a9bf99c8c773734a9049e33">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-572a8da1754e97849017ed0e8b85099899b8eef9.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-cb756a2325c186b1b3e59ac7d2b6282c962605a4.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-1736378a933e52bb82c07289950585599f1387b9.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\vidya_app\Mupdf\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="792ba9623ce4d13010ccc0d175cc2feacd1e4e01">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-21603c1e45383e1c2bad173aafec990baeee796f.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-66b3e9e1fba486e652eae37ad9a0710cf8b4694f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-core-asl\1.9.13\3c304d70f42f832e0a86d45bd437f692129299a4\jackson-core-asl-1.9.13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c304d70f42f832e0a86d45bd437f692129299a4">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\jackson-core-asl-1.9.13-f6f1426524de0958b72f7e87146076cde5f9c565.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-fa92e52ed89fdaf209be62c0dfb815771c4cbc32.jar" />
     </item>
     <item
         jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\4.48\e579bd2905d0399af5029aaaf9817d5fa0ca88a5\ormlite-core-4.48.jar"
@@ -79,11 +184,95 @@
         <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\ormlite-core-4.48-9c52e282352ad65adcfb6c5a51e240afd818cb81.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\org.codehaus.jackson\jackson-mapper-asl\1.9.11\45d70862fa016993193075a1e8e32a01dcf438e8\jackson-mapper-asl-1.9.11.jar"
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\5.1.0\42e2b5bbe9a148d09d58f78362d02fcfa505c4d2\butterknife-5.1.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="45d70862fa016993193075a1e8e32a01dcf438e8">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\jackson-mapper-asl-1.9.11-7ce3e864682ee1ba6abcf3e91309407c201e36d9.jar" />
+        sha1="42e2b5bbe9a148d09d58f78362d02fcfa505c4d2">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\butterknife-5.1.0-79b49ff631832f0aa3ead015b8b5e38b2b8b709b.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-34a521eaf2d324b570daf508c010e9ef34d6d697.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-84556f16b0d236672078c4317ed8c91d905869ff.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-45a236dd94120e59c72954380426ec2c8bd3d1b2.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-677f99f3dbb6f7787b260a6f0b28ae8bd08014e0.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-02eada9f2c16c758c1f506977c9df2cf662c72d1.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-42a94fcdb82e4e8010eaa6564ce8b706b8a6a8bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.1.0\9b51f7d0c19f179b52beab7cb433f8ba5cf786a4\okhttp-2.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9b51f7d0c19f179b52beab7cb433f8ba5cf786a4">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\okhttp-2.1.0-96ca74196e07f7ed80ca828e0a5834b22dd94a20.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-8d83a8eb8c0cfd755ce7ec8c90a944d04199ec68.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-343a969cacae900faa9301d69b48df02250b6403.jar" />
+    </item>
+    <item
+        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.0.1\39eff75ddcb987ff65888361a29f489c178429a3\okio-1.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39eff75ddcb987ff65888361a29f489c178429a3">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\okio-1.0.1-ec22f5adfd5845db99d68d7041fc05e4b642911f.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-285ca8621bf485f22f5c4cf770c187c30076e9fc.jar" />
+    </item>
+    <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-6dc3f9616c3c763d6aedb26cebca25ad5914aa25.jar" />
     </item>
     <item
         jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\org.achartengine\achartengine\1.2.0\9f56e1d4706e5f6db167e335318595ce047eb220\achartengine-1.2.0.jar"
@@ -93,6 +282,13 @@
         <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\achartengine-1.2.0-fa60b30b677e28bbb64c9d521e82e6c923a2a0d1.jar" />
     </item>
     <item
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\vidya_app\arcMenuLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c7fcc13ea3d01da85707de3492224d3c1527b51">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-fa8b27832284ae53b1df5419b18735d40e20a277.jar" />
+    </item>
+    <item
         jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp-urlconnection\2.1.0\6025b7df8a6a4193138723ef120e7228b6a97024\okhttp-urlconnection-2.1.0.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -100,39 +296,25 @@
         <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-2.1.0-a8b67dbb2767740ac1ab45603d3aca6c9905b250.jar" />
     </item>
     <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\5.1.0\42e2b5bbe9a148d09d58f78362d02fcfa505c4d2\butterknife-5.1.0.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="42e2b5bbe9a148d09d58f78362d02fcfa505c4d2">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\butterknife-5.1.0-79b49ff631832f0aa3ead015b8b5e38b2b8b709b.jar" />
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-8dfb7f1a3db9e68622d5d6169dc8f2badc2c9192.jar" />
     </item>
     <item
-        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\vidya_app\Mupdf\unspecified\classes.jar"
+        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.android.support\support-v13\20.0.0\jars\classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="792ba9623ce4d13010ccc0d175cc2feacd1e4e01">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-9f78d4212df8489f4909f6c2a1b2334c6a91b93d.jar" />
+        sha1="e128103d5281ddd26195a7f980b36d0d005a4e56">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-6e560f728a9057f328a7509b14d0233ac3757f77.jar" />
     </item>
     <item
-        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\com.joanzapata.pdfview\android-pdfview\1.0.4\classes.jar"
+        jar="C:\Users\Rishi M\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="df559ab8a9d5d44cf0a49dbb2be402637b90ba90">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-a57e1e032e38bd07b2221b2a90801e126571ecf8.jar" />
-    </item>
-    <item
-        jar="G:\StudioProject\vidya_app\app\build\intermediates\exploded-aar\vidya_app\aphidFlipViewLibrary\unspecified\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7352e92dbb7b0d62234c79f033fc18d43795f751">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\classes-c83cb11ab3a6fa6b13acedea0654d2f472b4cee8.jar" />
-    </item>
-    <item
-        jar="C:\Users\Rishi M\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.2.1\a18ff12a9ab5ae52fd30d42f134517997568231e\eventbus-2.2.1.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a18ff12a9ab5ae52fd30d42f134517997568231e">
-        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\eventbus-2.2.1-ce3ea1be8461ab35b90e4f9797e9d6bf19f574fd.jar" />
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="G:\StudioProject\vidya_app\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-83d8343d3e4f47961f9d84ed4370336a9688d13e.jar" />
     </item>
 
 </items>
