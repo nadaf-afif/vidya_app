@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.capricorn.RayLayout xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        custom:childSize="48dp" />
+
+    <FrameLayout
+        android:id="@+id/control_layout"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right|top"
+
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/composer_button">
+
+        <ImageView
+            android:id="@+id/control_hint"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:duplicateParentState="true"
+            android:src="@drawable/composer_icn_plus" />
+    </FrameLayout>
+
+</merge>
+<!-- From: file:/G:/StudioProject/vidya_app/arcMenuLibrary/src/main/res/layout/ray_menu.xml -->

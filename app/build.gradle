@@ -1,14 +1,15 @@
 apply plugin: 'android'
 
 android {
-	compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
-	buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
 
 	defaultConfig {
-		minSdkVersion 10
+		minSdkVersion 15
 		targetSdkVersion 22
 		versionCode 3
 		versionName "1.0.2"
+
 	}
 	signingConfigs {
 		release {

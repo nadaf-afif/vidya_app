@@ -6,7 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/aphidFlipViewLibrary/aphidFlipViewLibrary.iml" filepath="$PROJECT_DIR$/aphidFlipViewLibrary/aphidFlipViewLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/arcMenuLibrary/arcMenuLibrary.iml" filepath="$PROJECT_DIR$/arcMenuLibrary/arcMenuLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/vidya app.iml" filepath="$PROJECT_DIR$/vidya app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vidya_app.iml" filepath="$PROJECT_DIR$/vidya_app.iml" />
     </modules>
   </component>
 </project>
+
