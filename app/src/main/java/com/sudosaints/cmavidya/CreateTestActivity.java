@@ -35,7 +35,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -55,15 +55,15 @@ public class CreateTestActivity extends Activity {
 
 		}
 	};
-	@InjectView(R.id.topicLevelLV)
+	@Bind(R.id.topicLevelLV)
 	ListView topicLevelLV;
-	@InjectView(R.id.subjectLevelLV)
+	@Bind(R.id.subjectLevelLV)
 	ListView subjectLevelLV;
-	@InjectView(R.id.tabHost)
+	@Bind(R.id.tabHost)
 	TabHost tabHost;
-	@InjectView(R.id.selectSubjectForTopicTestTV)
+	@Bind(R.id.selectSubjectForTopicTestTV)
 	TextView selectSubjectForTopicTestTV;
-	@InjectView(R.id.createTextButton)
+	@Bind(R.id.createTextButton)
 	Button createTextButton;
 
 	private UIHelper uiHelper;
@@ -85,7 +85,7 @@ public class CreateTestActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.test_activity);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		uiHelper = new UIHelper(this);
 		uiHelper.setActionBar(Constants.ActivityABarAction.TEST_CREATE, actionBarLeftOnClickListener, ActionBarRightOnClickListener);
 		dbUtils = new DBUtils(this);

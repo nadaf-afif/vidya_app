@@ -25,7 +25,7 @@ import java.util.Calendar;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -54,56 +54,56 @@ public class TestQuestionActivity extends Activity {
 			finish();
 		}
 	};
-	@InjectView(R.id.questionWV)
+	@Bind(R.id.questionWV)
 	WebView questionWV;
 
-	@InjectView(R.id.optionsLL)
+	@Bind(R.id.optionsLL)
 	LinearLayout optionsLL;
 
-	@InjectView(R.id.option5LL)
+	@Bind(R.id.option5LL)
 	LinearLayout option5LL;
 
-	@InjectView(R.id.questionRG)
+	@Bind(R.id.questionRG)
 	RadioGroup questionRG;
 
-	@InjectView(R.id.option1)
+	@Bind(R.id.option1)
 	RadioButton option1;
 
-	@InjectView(R.id.option2)
+	@Bind(R.id.option2)
 	RadioButton option2;
 
-	@InjectView(R.id.option3)
+	@Bind(R.id.option3)
 	RadioButton option3;
 
-	@InjectView(R.id.option4)
+	@Bind(R.id.option4)
 	RadioButton option4;
 
-	@InjectView(R.id.option5)
+	@Bind(R.id.option5)
 	RadioButton option5;
 
-	@InjectView(R.id.option1WV)
+	@Bind(R.id.option1WV)
 	WebView option1WV;
 
-	@InjectView(R.id.option2WV)
+	@Bind(R.id.option2WV)
 	WebView option2WV;
 
-	@InjectView(R.id.option3WV)
+	@Bind(R.id.option3WV)
 	WebView option3WV;
 
-	@InjectView(R.id.option4WV)
+	@Bind(R.id.option4WV)
 	WebView option4WV;
 
-	@InjectView(R.id.option5WV)
+	@Bind(R.id.option5WV)
 	WebView option5WV;
 
 
-	@InjectView(R.id.nextBtn)
+	@Bind(R.id.nextBtn)
 	Button nextBtn;
-	@InjectView(R.id.backBtn)
+	@Bind(R.id.backBtn)
 	Button backBtn;
-	@InjectView(R.id.pauseBtn)
+	@Bind(R.id.pauseBtn)
 	Button pauseBtn;
-	@InjectView(R.id.endBtn)
+	@Bind(R.id.endBtn)
 	Button endBtn;
 
 
@@ -122,7 +122,7 @@ public class TestQuestionActivity extends Activity {
 		} else {
 			idTestLogMaster = getIntent().getLongExtra(IntentExtras.Id_Test_Log_Master, 0);
 			setContentView(R.layout.activity_question_test);
-			ButterKnife.inject(this);
+			ButterKnife.bind(this);
 			uiHelper = new UIHelper(this);
 			uiHelper.setActionBar(Constants.ActivityABarAction.Test_SERIES, actionBarLeftOnClickListener, null);
 

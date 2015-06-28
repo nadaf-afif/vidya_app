@@ -20,7 +20,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -29,16 +29,16 @@ import butterknife.OnClick;
 public class TopicWiseReportActvity extends Activity {
 
 
-	@InjectView(R.id.testTypeSP)
+	@Bind(R.id.testTypeSP)
 	Spinner testTypeSP;
 
-	@InjectView(R.id.difficultyLevelSP)
+	@Bind(R.id.difficultyLevelSP)
 	Spinner difficultyLevelSP;
 
-	@InjectView(R.id.subjectsSP)
+	@Bind(R.id.subjectsSP)
 	Spinner subjectsSP;
 
-	@InjectView(R.id.topicSP)
+	@Bind(R.id.topicSP)
 	Spinner topicSP;
 
 	private UIHelper uiHelper;
@@ -62,7 +62,7 @@ public class TopicWiseReportActvity extends Activity {
 		super.onCreate(savedInstanceState);
 		activity = this;
 		setContentView(R.layout.activity_pre_topic_report);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		uiHelper = new UIHelper(this);
 		dbUtils = new DBUtils(activity);
 		uiHelper.setActionBar(Constants.ActivityABarAction.ANALYSIS, actionBarLeftOnClickListener, null);

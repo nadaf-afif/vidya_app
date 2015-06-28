@@ -10,6 +10,7 @@ import com.sudosaints.cmavidya.util.UIHelper;
 
 import butterknife.ButterKnife;
 
+
 /**
  * Created by inni on 12/1/15.
  */
@@ -27,7 +28,7 @@ public class ComingSoonActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_coming_soon);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		uiHelper = new UIHelper(this);
 		uiHelper.setActionBar(Constants.ActivityABarAction.Test_SERIES, actionBarLeftOnClickListener, null);

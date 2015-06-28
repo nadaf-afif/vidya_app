@@ -17,7 +17,7 @@ import com.sudosaints.cmavidya.util.UIHelper;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 
 /**
  * Created by inni on 24/2/15.
@@ -50,7 +50,7 @@ public class ForumThreadListActivity extends Activity {
 	};
 
 
-	@InjectView(R.id.forumThreadLV)
+	@Bind(R.id.forumThreadLV)
 	ListView forumThreadLV;
 
 
@@ -66,7 +66,7 @@ public class ForumThreadListActivity extends Activity {
 		}
 		setContentView(R.layout.activity_forum_thread_list);
 
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(this);
 		uiHelper = new UIHelper(this);

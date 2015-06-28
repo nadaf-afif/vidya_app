@@ -19,7 +19,7 @@ import com.sudosaints.cmavidya.util.UIHelper;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -55,13 +55,13 @@ public class ThreadListActivity extends Activity {
 		}
 	};
 
-	@InjectView(R.id.tdThreadName)
+	@Bind(R.id.tdThreadName)
 	TextView threadName;
 
-	@InjectView(R.id.tdTopicName)
+	@Bind(R.id.tdTopicName)
 	TextView topicName;
 
-	@InjectView(R.id.tdListView)
+	@Bind(R.id.tdListView)
 	ListView threadListView;
 
 
@@ -77,7 +77,7 @@ public class ThreadListActivity extends Activity {
 		}
 
 		setContentView(R.layout.activity_thread_display);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		activity = this;
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(this);

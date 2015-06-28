@@ -6,11 +6,13 @@ import android.os.Bundle;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
+/*import com.google.android.gms.gcm.GoogleCloudMessaging;*/
+
 /**
- * Created by yadnyesh on 18/6/15.
+ * Created by Akshay on 18/6/15.
  */
-public class GcmIntentService extends IntentService {
-    public GcmIntentService() {
+public class GcmIntentService/* extends IntentService*/ {
+   /* public GcmIntentService() {
         super("GcmIntentService");
     }
 
@@ -34,5 +36,5 @@ public class GcmIntentService extends IntentService {
         }
 
 
-    }
+    }*/
 }

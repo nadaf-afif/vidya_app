@@ -28,7 +28,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -52,13 +52,13 @@ public class NewThreadActivity extends Activity {
 			finish();
 		}
 	};
-	@InjectView(R.id.newThreadTitleET)
+	@Bind(R.id.newThreadTitleET)
 	EditText title;
-	@InjectView(R.id.newThreadBodyET)
+	@Bind(R.id.newThreadBodyET)
 	WebView body;
-	@InjectView(R.id.newThreadcheckBox)
+	@Bind(R.id.newThreadcheckBox)
 	CheckBox isColsedCB;
-	@InjectView(R.id.newThreadCreate)
+	@Bind(R.id.newThreadCreate)
 	TextView createThread;
 	private CMAVidyaApp cmaVidyaApp;
 	private DBUtils dbUtils;
@@ -78,7 +78,7 @@ public class NewThreadActivity extends Activity {
 
 		setContentView(R.layout.activity_create_new_thread);
 
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(this);
 		preferences = new Preferences(this);

@@ -22,19 +22,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 
 /**
  * Created by inni on 12/3/15.
  */
 public class IndividualTestAnalysisActivity extends Activity {
-	@InjectView(R.id.reportOverallScoreTL)
+	@Bind(R.id.reportOverallScoreTL)
 	TableLayout reportOverallScoreTL;
 
-	@InjectView(R.id.sectionalTL)
+	@Bind(R.id.sectionalTL)
 	TableLayout sectionalTL;
 
-	@InjectView(R.id.questionWiseTL)
+	@Bind(R.id.questionWiseTL)
 	TableLayout questionWiseTL;
 
 	private UIHelper uiHelper;
@@ -60,7 +60,7 @@ public class IndividualTestAnalysisActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		activity = this;
 		setContentView(R.layout.activity_individual_test_analysis);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(this);
 		uiHelper = new UIHelper(this);

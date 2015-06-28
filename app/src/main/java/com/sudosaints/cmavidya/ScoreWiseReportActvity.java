@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -25,10 +25,10 @@ import butterknife.OnClick;
 public class ScoreWiseReportActvity extends Activity {
 
 
-	@InjectView(R.id.testTypeSP)
+	@Bind(R.id.testTypeSP)
 	Spinner testTypeSP;
 
-	@InjectView(R.id.difficultyLevelSP)
+	@Bind(R.id.difficultyLevelSP)
 	Spinner difficultyLevelSP;
 
 	private UIHelper uiHelper;
@@ -49,7 +49,7 @@ public class ScoreWiseReportActvity extends Activity {
 		super.onCreate(savedInstanceState);
 		activity = this;
 		setContentView(R.layout.activity_pre_score_report);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		uiHelper = new UIHelper(this);
 		uiHelper.setActionBar(Constants.ActivityABarAction.ANALYSIS, actionBarLeftOnClickListener, null);
 

@@ -35,7 +35,7 @@ import java.util.List;
 import java.util.Map;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -43,22 +43,22 @@ import butterknife.OnClick;
  */
 public class ReplanActivity extends Activity {
 
-	@InjectView(R.id.replanTabHost)
+	@Bind(R.id.replanTabHost)
 	TabHost replanTabHost;
 
-	@InjectView(R.id.subjectReplanList)
+	@Bind(R.id.subjectReplanList)
 	DynamicSubjectListView subjectReplanListView;
 
-	@InjectView(R.id.subjectReplanRevisionNoSpinner)
+	@Bind(R.id.subjectReplanRevisionNoSpinner)
 	Spinner subjectReplanRevisionNoSpinner;
 
-	@InjectView(R.id.topicReplanList)
+	@Bind(R.id.topicReplanList)
 	DynamicTopictListView topicReplanList;
 
-	@InjectView(R.id.topicReplanSubjectSpinner)
+	@Bind(R.id.topicReplanSubjectSpinner)
 	Spinner topicReplanSubjectSpinner;
 
-	@InjectView(R.id.topicReplanRevisionNoSpinner)
+	@Bind(R.id.topicReplanRevisionNoSpinner)
 	Spinner topicReplanRevisionNoSpinner;
 
 	View.OnClickListener actionBarLeftOnClickListener = new View.OnClickListener() {
@@ -92,7 +92,7 @@ public class ReplanActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_replan);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		uiHelper = new UIHelper(this);
 		dbUtils = new DBUtils(this);
 		uiHelper.setActionBar(Constants.ActivityABarAction.REPLAN, actionBarLeftOnClickListener, ActionBarRightOnClickListener);

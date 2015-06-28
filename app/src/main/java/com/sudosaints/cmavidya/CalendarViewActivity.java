@@ -27,7 +27,7 @@ import java.util.Date;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 
 /**
  * Created by inni on 25/7/14.
@@ -38,7 +38,7 @@ public class CalendarViewActivity extends Activity {
     DBUtils dbUtils;
 
     UIHelper uiHelper;
-    @InjectView(R.id.plannerClanderListView)
+    @Bind(R.id.plannerClanderListView)
     ListView calendarYearListView;
 
 
@@ -63,7 +63,7 @@ public class CalendarViewActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_planner_calender);
         cmaVidyaApp = new CMAVidyaApp();
-        ButterKnife.inject(this);
+        ButterKnife.bind(this);
         dbUtils = new DBUtils(this);
 
 

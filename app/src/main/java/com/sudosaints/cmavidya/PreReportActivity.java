@@ -44,7 +44,7 @@ public class PreReportActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		activity = this;
 		setContentView(R.layout.activity_pre_report);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(this);
 		uiHelper = new UIHelper(this);

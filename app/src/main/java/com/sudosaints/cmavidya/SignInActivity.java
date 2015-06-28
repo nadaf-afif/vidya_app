@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
+import android.widget.Button;
 import android.widget.EditText;
 
 import com.sudosaints.cmavidya.api.ApiResponse;
@@ -15,16 +16,18 @@ import com.sudosaints.cmavidya.util.CommonUtil;
 import java.util.Map;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 import butterknife.OnEditorAction;
 
 public class SignInActivity extends Activity {
 
-    @InjectView(R.id.loginEmailEditText)
+    @Bind(R.id.loginEmailEditText)
     EditText emailIdEditText;
-    @InjectView(R.id.loginPasswordEditText)
+    @Bind(R.id.loginPasswordEditText)
     EditText passwordEditText;
+    @Bind(R.id.loginSigninButton)
+    Button loginSigninButton;
 
     private CMAVidyaApp cmaVidyaApp;
     private User user;
@@ -34,7 +37,7 @@ public class SignInActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        ButterKnife.inject(this);
+        ButterKnife.bind(this);
         cmaVidyaApp = (CMAVidyaApp) getApplication();
         preferences = cmaVidyaApp.getPreferences();
 
@@ -53,7 +56,6 @@ public class SignInActivity extends Activity {
             startActivity(intent);
             finish();
         }
-
     }
 
     @OnEditorAction(R.id.loginPasswordEditText)
@@ -122,5 +124,6 @@ public class SignInActivity extends Activity {
         Intent intent = new Intent(SignInActivity.this, GuestUserLoginActivity.class);
         startActivity(intent);
     }
+
 
 }

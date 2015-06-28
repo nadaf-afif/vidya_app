@@ -4,16 +4,18 @@ import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;
 
+/*import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.google.android.gms.iid.InstanceID;*/
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
 import com.sudosaints.cmavidya.R;
 
 
 /**
- * Created by yadnyesh on 18/6/15.
+ * Created by Akshay on 18/6/15.
  */
-public class RegistrationIntentService extends IntentService {
-    private static final String TAG = "RegIntentService";
+public class RegistrationIntentService /*extends IntentService*/ {
+ /*   private static final String TAG = "RegIntentService";
 
     public RegistrationIntentService() {
         super(TAG);
@@ -37,5 +39,5 @@ public class RegistrationIntentService extends IntentService {
         }
         //  Intent registrationComplete = new Intent(QuickstartPreferences.REGISTRATION_COMPLETE);
         // LocalBroadcastManager.getInstance(this).sendBroadcast(registrationComplete);
-    }
+    }*/
 }

@@ -53,7 +53,7 @@ dependencies {
     compile project(':Mupdf')
     compile 'de.greenrobot:eventbus:2.2.+'
     compile 'com.android.support:support-v13:20.0.0'
-    compile 'com.jakewharton:butterknife:5.1.0'
+    compile files('libs/retrofit-1.9.0.jar')
     compile 'org.codehaus.jackson:jackson-mapper-asl:1.9.+'
     compile 'org.codehaus.jackson:jackson-core-asl:1.9.+'
     compile 'com.j256.ormlite:ormlite-core:4.+'
@@ -64,5 +64,5 @@ dependencies {
     compile 'org.achartengine:achartengine:1.2.0'
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.google.android.gms:play-services:7.5.0'
-    compile files('libs/retrofit-1.9.0.jar')
+    compile files('libs/butterknife-7.0.0.jar')
 }

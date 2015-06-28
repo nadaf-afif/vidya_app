@@ -21,7 +21,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -30,10 +30,10 @@ import butterknife.OnClick;
 public class TestWiseReportActvity extends Activity {
 
 
-	@InjectView(R.id.testNameSP)
+	@Bind(R.id.testNameSP)
 	Spinner testNameSp;
 
-	@InjectView(R.id.testTypeSP)
+	@Bind(R.id.testTypeSP)
 	Spinner testTypeSp;
 
 
@@ -64,7 +64,7 @@ public class TestWiseReportActvity extends Activity {
 		super.onCreate(savedInstanceState);
 		activity = this;
 		setContentView(R.layout.activity_report_test);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(this);
 		uiHelper = new UIHelper(this);

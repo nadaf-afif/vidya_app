@@ -38,9 +38,9 @@ import butterknife.ButterKnife;
  */
 public class KeynotesMainActivity extends Activity {//implements AdapterView.OnItemClickListener {
 
-	/*  @InjectView(R.id.keynotesGridList)
+	/*  @Bind(R.id.keynotesGridList)
 	  public GridView gridView;
-	  @InjectView(R.id.keynotesTxtView)
+	  @Bind(R.id.keynotesTxtView)
 	  public TextView tvEmptyView;*/
 	private KeyNotesPDFFileAdapter keyNotesPDFFileAdapter;
 	public static final int DIALOG_DOWNLOAD_PROGRESS = 0;
@@ -67,7 +67,7 @@ public class KeynotesMainActivity extends Activity {//implements AdapterView.OnI
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//setContentView(R.layout.flip_first_layout);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(KeynotesMainActivity.this);
 		uiHelper = new UIHelper(this);

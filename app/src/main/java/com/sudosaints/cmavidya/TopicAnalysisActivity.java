@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 
 /**
  * Created by inni on 12/3/15.
@@ -64,37 +64,37 @@ public class TopicAnalysisActivity extends Activity {
 	};
 
 
-	@InjectView(R.id.scoreTestTypeTV)
+	@Bind(R.id.scoreTestTypeTV)
 	TextView subjectTestTypeTV;
 
-	@InjectView(R.id.scoreDiffLevelTV)
+	@Bind(R.id.scoreDiffLevelTV)
 	TextView ssubjectDiffLevelTV;
 
-	@InjectView(R.id.subjectNameTV)
+	@Bind(R.id.subjectNameTV)
 	TextView subjectNameTV;
 
-	@InjectView(R.id.topicNameTV)
+	@Bind(R.id.topicNameTV)
 	TextView topicNameTV;
 
-	@InjectView(R.id.avgScoreTV)
+	@Bind(R.id.avgScoreTV)
 	TextView avgScoreTV;
 
-	@InjectView(R.id.higScoreTV)
+	@Bind(R.id.higScoreTV)
 	TextView higScoreTV;
 
-	@InjectView(R.id.lowScoreTV)
+	@Bind(R.id.lowScoreTV)
 	TextView lowScoreTV;
 
-	@InjectView(R.id.scoreDetailsTL)
+	@Bind(R.id.scoreDetailsTL)
 	TableLayout scoreDetailsTL;
 
-	@InjectView(R.id.scorePieChart)
+	@Bind(R.id.scorePieChart)
 	LinearLayout scorePieChart;
 
-	@InjectView(R.id.scorePerformanceLineChart)
+	@Bind(R.id.scorePerformanceLineChart)
 	LinearLayout scorePerformanceLineChart;
 
-	@InjectView(R.id.scoreQuestionChart)
+	@Bind(R.id.scoreQuestionChart)
 	LinearLayout scoreQuestionChart;
 
 	@Override
@@ -102,7 +102,7 @@ public class TopicAnalysisActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		activity = this;
 		setContentView(R.layout.activity_topic_report);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(this);
 		uiHelper = new UIHelper(this);

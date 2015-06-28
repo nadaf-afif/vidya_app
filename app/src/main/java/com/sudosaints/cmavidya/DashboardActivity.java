@@ -61,7 +61,7 @@ public class DashboardActivity extends Activity {
 		uiHelper = new UIHelper(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		preferences = new Preferences(this);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		dbUtils = new DBUtils(DashboardActivity.this);
 		uiHelper.setActionBar(Constants.ActivityABarAction.DASHBOARD, actionBarLeftOnClickListener, actionBarRightOnClickListener);
 

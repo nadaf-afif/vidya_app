@@ -11,7 +11,7 @@ import com.sudosaints.cmavidya.util.Constants;
 import com.sudosaints.cmavidya.util.UIHelper;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 
@@ -20,7 +20,7 @@ import butterknife.OnClick;
  */
 public class KeynotesAddNoteActivity extends Activity {
 
-    @InjectView(R.id.addNoteDeleteButton)
+    @Bind(R.id.addNoteDeleteButton)
     Button deleteButton;
 
     @OnClick(R.id.addNoteDeleteButton) void sayHello() {
@@ -44,7 +44,7 @@ public class KeynotesAddNoteActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_keynotes_add_note);
 
-        ButterKnife.inject(this);
+        ButterKnife.bind(this);
         uiHelper = new UIHelper(KeynotesAddNoteActivity.this);
         uiHelper.setActionBar(Constants.ActivityABarAction.KEYNOTES_ADD_NOTE, actionBarLeftOnClickListener, null);
         /*addNoteEditText.setText("hello indraneel ");*/

@@ -37,7 +37,7 @@ import java.util.List;
 import java.util.Map;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -45,13 +45,13 @@ import butterknife.OnClick;
  */
 public class PlannerActivity extends Activity {
 
-	@InjectView(R.id.plannerDateListView)
+	@Bind(R.id.plannerDateListView)
 	ListView plannerListView;
-	@InjectView(R.id.plannerDateRelativeLayout)
+	@Bind(R.id.plannerDateRelativeLayout)
 	RelativeLayout plannerDateRelativeLayout;
-	@InjectView(R.id.plannerDateTextView)
+	@Bind(R.id.plannerDateTextView)
 	TextView dateTextView;
-	@InjectView(R.id.plannerDateMnYTextView)
+	@Bind(R.id.plannerDateMnYTextView)
 	TextView monthNYearTextView;
 
 
@@ -136,7 +136,7 @@ public class PlannerActivity extends Activity {
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		preferences = cmaVidyaApp.getPreferences();
 		dbUtils = new DBUtils(this);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		date = new Date();
 		cal = Calendar.getInstance();
 		date = cal.getTime();

@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 import butterknife.OnClick;
 
 /**
@@ -51,19 +51,19 @@ public class RegisterActivity extends Activity {
         }
     };
 
-    @InjectView(R.id.registerFirstNameEditText)
+    @Bind(R.id.registerFirstNameEditText)
     EditText firstnameEditText;
-    @InjectView(R.id.registerLastNameEditText)
+    @Bind(R.id.registerLastNameEditText)
     EditText lastnameEditText;
-    @InjectView(R.id.registerUserNameEditText)
+    @Bind(R.id.registerUserNameEditText)
     EditText emailIdEditText;
-    @InjectView(R.id.registerPasswordEditText)
+    @Bind(R.id.registerPasswordEditText)
     EditText passwordEditText;
-    @InjectView(R.id.registerConfirmPasswordEditText)
+    @Bind(R.id.registerConfirmPasswordEditText)
     EditText confirmPwdEditText;
-    @InjectView(R.id.registerSelectCourseTextView)
+    @Bind(R.id.registerSelectCourseTextView)
     TextView courseTextView;
-    @InjectView(R.id.registerContinueButton)
+    @Bind(R.id.registerContinueButton)
     Button continueButton;
 
     @OnClick(R.id.registerContinueButton)
@@ -167,7 +167,7 @@ public class RegisterActivity extends Activity {
         cmaVidyaApp = (CMAVidyaApp) getApplication();
         dbUtils = new DBUtils(RegisterActivity.this);
         setContentView(R.layout.activity_register);
-        ButterKnife.inject(this);
+        ButterKnife.bind(this);
         user = new User();
 
         uiHelper = new UIHelper(this);

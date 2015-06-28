@@ -18,14 +18,14 @@ import com.sudosaints.cmavidya.util.UIHelper;
 import java.util.List;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 
 /**
  * Created by inni on 17/3/15.
  */
 public class VideoListActivity extends Activity {
 
-	@InjectView(R.id.videosGridView)
+	@Bind(R.id.videosGridView)
 	GridView videosGridView;
 
 	private UIHelper uiHelper;
@@ -49,7 +49,7 @@ public class VideoListActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		activity = this;
 		setContentView(R.layout.activity_video_list);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 		cmaVidyaApp = (CMAVidyaApp) getApplication();
 		dbUtils = new DBUtils(this);
 		uiHelper = new UIHelper(this);

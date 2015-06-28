@@ -10,11 +10,11 @@ import android.webkit.WebViewClient;
 import com.sudosaints.cmavidya.util.IntentExtras;
 
 import butterknife.ButterKnife;
-import butterknife.InjectView;
+import butterknife.Bind;
 
 public class VideoViewActivity extends Activity {
 
-	@InjectView(R.id.videoViewWV)
+	@Bind(R.id.videoViewWV)
 	WebView web;
 
 	private String videoUrl;
@@ -26,7 +26,7 @@ public class VideoViewActivity extends Activity {
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_video_view);
-		ButterKnife.inject(this);
+		ButterKnife.bind(this);
 
 		if (getIntent().hasExtra(IntentExtras.MEDIA_URL)) {
 			videoUrl = getIntent().getStringExtra(IntentExtras.MEDIA_URL);
