@@ -18,59 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ac98b0a-7f06-451d-8b90-aa6319f2b3c3" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\achartengine_1_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\android_pdfview_1_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\butterknife_5_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\eventbus_2_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\jackson_core_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\jackson_mapper_asl_1_9_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\multidex_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\okhttp_2_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\okhttp_urlconnection_2_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\okio_1_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\ormlite_android_4_48.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\ormlite_core_4_48.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\picasso_2_5_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\retrofit_1_9_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\.idea\libraries\support_v13_20_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\StudioProject\vidya_app\vidya app.iml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/CalendarViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/CalendarViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ComingSoonActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ComingSoonActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/CreateTestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/CreateTestActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/DashboardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/DashboardActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ForumListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ForumListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ForumSubjectListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ForumSubjectListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ForumThreadListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ForumThreadListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/gcm/GcmIntentService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/gcm/GcmIntentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/gcm/IIDListenerService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/gcm/IIDListenerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/IndividualTestAnalysisActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/IndividualTestAnalysisActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/KeynotesAddNoteActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/KeynotesAddNoteActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/KeynotesMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/KeynotesMainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/MasterForumListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/MasterForumListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/NewThreadActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/NewThreadActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/PlannerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/PlannerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/PreReportActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/PreReportActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/PreTestActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/PreTestActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/gcm/RegistrationIntentService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/gcm/RegistrationIntentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ReplanActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ReplanActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ScoreAnalysisActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ScoreAnalysisActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ScoreWiseReportActvity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ScoreWiseReportActvity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/SignInActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/SignInActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/SubjectAnalysisActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/SubjectAnalysisActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/SubjectWiseReportActvity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/SubjectWiseReportActvity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/TestQuestionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/TestQuestionActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/TestWiseReportActvity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/TestWiseReportActvity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ThreadListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/ThreadListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/TopicAnalysisActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/TopicAnalysisActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/TopicWiseReportActvity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/TopicWiseReportActvity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/VideoListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/VideoListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/VideoViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/VideoViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidya app.iws" />
@@ -97,9 +45,12 @@
       <file leaf-file-name="SignInActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/SignInActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32864675" vertical-offset="510" max-vertical-offset="1921">
-              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="1.9309577" vertical-offset="136" max-vertical-offset="1972">
+              <caret line="77" column="62" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
+              <folding>
+                <element signature="e#2565#4108#0" expanded="true" />
+                <element signature="e#4085#4086#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -3503,18 +3454,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidya app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3631,6 +3570,18 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="gcm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidya app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3835,34 +3786,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36515912" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4589615" sideWeight="0.17473525" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.29954615" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20100503" sideWeight="0.29954615" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.7004539" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20100503" sideWeight="0.7004539" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.110552765" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36515912" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -3890,7 +3841,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3939,13 +3889,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3315">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/android/annotation/TargetApi.java">
@@ -3966,7 +3916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13350785" vertical-offset="0" max-vertical-offset="510">
           <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3974,9 +3923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.8830084" vertical-offset="1696" max-vertical-offset="7089">
           <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3984,9 +3930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="629">
           <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3994,7 +3937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.68" vertical-offset="10695" max-vertical-offset="37400">
           <caret line="636" column="41" selection-start-line="636" selection-start-column="41" selection-end-line="636" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4002,7 +3944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3185" max-vertical-offset="3536">
           <caret line="199" column="8" selection-start-line="199" selection-start-column="8" selection-end-line="199" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4010,7 +3951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1192" max-vertical-offset="2227">
           <caret line="77" column="67" selection-start-line="77" selection-start-column="67" selection-end-line="77" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4018,7 +3958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.16" vertical-offset="86120" max-vertical-offset="106437">
           <caret line="5072" column="61" selection-start-line="5072" selection-start-column="61" selection-end-line="5072" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4026,7 +3965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33226836" vertical-offset="6475" max-vertical-offset="106437">
           <caret line="387" column="57" selection-start-line="387" selection-start-column="57" selection-end-line="387" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4034,7 +3972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.16" vertical-offset="60008" max-vertical-offset="75072">
           <caret line="3536" column="61" selection-start-line="3536" selection-start-column="61" selection-end-line="3536" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4042,9 +3979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="6698">
           <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4052,7 +3986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="4896">
           <caret line="63" column="8" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4060,9 +3993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1530">
           <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4070,9 +4000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="806" max-vertical-offset="1564">
           <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4080,9 +4007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="1717">
           <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4090,9 +4014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="3876">
           <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4100,9 +4021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="665" max-vertical-offset="1020">
           <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4110,7 +4028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="3111">
           <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4118,9 +4035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="614" max-vertical-offset="1292">
           <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4128,9 +4042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1158" max-vertical-offset="5083">
           <caret line="80" column="8" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4138,9 +4049,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2098" max-vertical-offset="6205">
           <caret line="138" column="8" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4148,7 +4056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1836">
           <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4156,7 +4063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="4743">
           <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4164,9 +4070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2608" max-vertical-offset="3026">
           <caret line="169" column="8" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4174,9 +4077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1401" max-vertical-offset="5287">
           <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4184,9 +4084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="5950">
           <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4194,30 +4091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1911" max-vertical-offset="9775">
           <caret line="124" column="12" selection-start-line="124" selection-start-column="12" selection-end-line="124" selection-end-column="12" />
-          <folding>
-            <element signature="e#1401#1496#0" expanded="false" />
-            <element signature="e#1492#1493#0" expanded="false" />
-            <element signature="e#3742#3980#0" expanded="false" />
-            <element signature="e#3975#3976#0" expanded="false" />
-            <element signature="e#4012#4250#0" expanded="false" />
-            <element signature="e#4245#4246#0" expanded="false" />
-            <element signature="e#4282#4520#0" expanded="false" />
-            <element signature="e#4515#4516#0" expanded="false" />
-            <element signature="e#4552#4790#0" expanded="false" />
-            <element signature="e#4785#4786#0" expanded="false" />
-            <element signature="e#4822#5060#0" expanded="false" />
-            <element signature="e#5055#5056#0" expanded="false" />
-            <element signature="e#5476#6017#0" expanded="false" />
-            <element signature="e#6010#6011#0" expanded="false" />
-            <element signature="e#12699#13591#0" expanded="false" />
-            <element signature="e#13219#13480#0" expanded="false" />
-            <element signature="e#13470#13471#0" expanded="false" />
-            <element signature="e#13584#13585#0" expanded="false" />
-            <element signature="e#15953#16763#0" expanded="false" />
-            <element signature="e#16522#16652#0" expanded="false" />
-            <element signature="e#16642#16643#0" expanded="false" />
-            <element signature="e#16756#16757#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4225,10 +4098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="925" max-vertical-offset="2295">
           <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
-          <folding>
-            <element signature="e#1196#1291#0" expanded="false" />
-            <element signature="e#1287#1288#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4236,18 +4105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1044" max-vertical-offset="2176">
           <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-          <folding>
-            <element signature="e#1133#1228#0" expanded="false" />
-            <element signature="e#1224#1225#0" expanded="false" />
-            <element signature="e#1284#1605#0" expanded="false" />
-            <element signature="e#1427#1595#0" expanded="false" />
-            <element signature="e#1589#1590#0" expanded="false" />
-            <element signature="e#1601#1602#0" expanded="false" />
-            <element signature="e#2492#2696#0" expanded="false" />
-            <element signature="e#2691#2692#0" expanded="false" />
-            <element signature="e#2911#3429#0" expanded="false" />
-            <element signature="e#3424#3425#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4255,9 +4112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1571" max-vertical-offset="6409">
           <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4265,11 +4119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="1836">
           <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1416#1511#0" expanded="false" />
-            <element signature="e#1507#1508#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4277,7 +4126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4495238" vertical-offset="189" max-vertical-offset="1122">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4285,13 +4133,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22285715" vertical-offset="359" max-vertical-offset="1020">
           <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1105#1200#0" expanded="false" />
-            <element signature="e#1196#1197#0" expanded="false" />
-            <element signature="e#2061#2388#0" expanded="false" />
-            <element signature="e#2383#2384#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4299,9 +4140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21875" vertical-offset="823" max-vertical-offset="1717">
           <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4309,9 +4147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21875" vertical-offset="1520" max-vertical-offset="6307">
           <caret line="101" column="8" selection-start-line="101" selection-start-column="8" selection-end-line="101" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4319,9 +4154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22285715" vertical-offset="665" max-vertical-offset="1292">
           <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4329,9 +4161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24242425" vertical-offset="0" max-vertical-offset="782">
           <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4339,9 +4168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4848485" vertical-offset="0" max-vertical-offset="833">
           <caret line="16" column="62" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4349,9 +4175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="561">
           <caret line="11" column="67" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4371,15 +4194,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72727275" vertical-offset="697" max-vertical-offset="1258">
           <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sudosaints/cmavidya/SignInActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32864675" vertical-offset="510" max-vertical-offset="1921">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="1.9309577" vertical-offset="136" max-vertical-offset="1972">
+          <caret line="77" column="62" selection-start-line="77" selection-start-column="62" selection-end-line="77" selection-end-column="62" />
+          <folding>
+            <element signature="e#2565#4108#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
