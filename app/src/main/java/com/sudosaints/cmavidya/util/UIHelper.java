@@ -251,6 +251,16 @@ public class UIHelper {
 				mActionBar.setCustomView(mCustomView);
 				mActionBar.setDisplayShowCustomEnabled(true);
 				break;
+            case NOTIFICATION:
+                mTitleTextView.setText("Notification");
+                mLeftImageView.setOnClickListener(actionBarLeftOnClickListener);
+                mRightImageView.setOnClickListener(actionBarRightOnClickListener);
+                mLeftImageView.setImageResource(R.drawable.back);
+                mRightImageView.setImageResource(0);
+                mActionBar.setBackgroundDrawable(new ColorDrawable(0xFF0064AF));
+                mActionBar.setCustomView(mCustomView);
+                mActionBar.setDisplayShowCustomEnabled(true);
+                break;
 
 
 		}

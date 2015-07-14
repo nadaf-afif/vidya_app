@@ -111,7 +111,7 @@ public class DashboardActivity extends Activity {
 
 	@OnClick(R.id.dashboardNotificationsButton)
 	public void onNotificationButtonClick() {
-		Intent intent = new Intent(DashboardActivity.this, ComingSoonActivity.class);
+		Intent intent = new Intent(DashboardActivity.this, NotificationActivity.class);
 		startActivity(intent);
 	}
 

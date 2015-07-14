@@ -10,8 +10,9 @@ public class Constants {
 
 	public static final String SERVER_DATE_FORMAT = "dd-MM-yyyy";
 	public static final String SERVER_MONTH_YEAR_FORMAT = "MMMM-yyyy";
+    public static final String NOTIFICATION_API = "http://cavidya.com/Service/Auth.svc/GetNotificationList/laxman";
 
-	public static enum ActivityABarAction {
+    public static enum ActivityABarAction {
 		REGISTER,
 		GUEST_USER,
 		LANDING,
@@ -33,7 +34,8 @@ public class Constants {
 		NEW_THREAD,
 		LIST_THREAD,
 		ANALYSIS,
-		VIDEO
+		VIDEO,
+        NOTIFICATION
 	}
 
 	public static enum CustomPopUpMenuOption {

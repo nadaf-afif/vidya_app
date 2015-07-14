@@ -131,6 +131,10 @@
 			android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
 			android:label="@string/print"/>
 
+        <activity
+            android:name=".NotificationActivity"
+            android:screenOrientation="portrait"/>
+
 	</application>
 
 </manifest>
