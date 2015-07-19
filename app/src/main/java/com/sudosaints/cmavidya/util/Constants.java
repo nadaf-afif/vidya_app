@@ -11,6 +11,8 @@ public class Constants {
 	public static final String SERVER_DATE_FORMAT = "dd-MM-yyyy";
 	public static final String SERVER_MONTH_YEAR_FORMAT = "MMMM-yyyy";
     public static final String NOTIFICATION_API = "http://cavidya.com/Service/Auth.svc/GetNotificationList/laxman";
+    public static final String DOWNLOAD_LIST_API = "http://cavidya.com/Service/Auth.svc/GetCourseDownloadList/laxman";
+    public static final String UPLOADEDPATH ="http://cavidya.com/Download/" ;
 
     public static enum ActivityABarAction {
 		REGISTER,
@@ -35,7 +37,8 @@ public class Constants {
 		LIST_THREAD,
 		ANALYSIS,
 		VIDEO,
-        NOTIFICATION
+        NOTIFICATION,
+        DOWNLOADS
 	}
 
 	public static enum CustomPopUpMenuOption {

@@ -134,6 +134,9 @@
         <activity
             android:name=".NotificationActivity"
             android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DownloadListActivity"
+            android:screenOrientation="portrait"/>
 
 	</application>
 

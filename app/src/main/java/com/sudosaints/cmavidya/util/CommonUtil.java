@@ -6,6 +6,9 @@ import android.app.ProgressDialog;
 import com.sudosaints.cmavidya.model.Subject;
 import com.sudosaints.cmavidya.model.Topic;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -70,5 +73,12 @@ public class CommonUtil {
 
 		return progressDialog;
 	}
+
+    public static String getCurrentDate() {
+        DateFormat dateFormat = new SimpleDateFormat("dd-MMM, yyyy");
+        Calendar cal = Calendar.getInstance();
+        String currentDate = dateFormat.format(cal.getTime());
+        return currentDate;
+    }
 
 }

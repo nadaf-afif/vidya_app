@@ -105,7 +105,7 @@ public class DashboardActivity extends Activity {
 
 	@OnClick(R.id.dashboardDownloadsButton)
 	public void onDownloadButtonClick() {
-		Intent intent = new Intent(DashboardActivity.this, ComingSoonActivity.class);
+		Intent intent = new Intent(DashboardActivity.this, DownloadListActivity.class);
 		startActivity(intent);
 	}
 
