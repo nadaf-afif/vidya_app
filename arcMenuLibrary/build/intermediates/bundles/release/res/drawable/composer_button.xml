@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/composer_button_pressed" android:state_pressed="true"/>
     <item android:drawable="@drawable/composer_button_normal"/>
 
-</selector><!-- From: file:/G:/StudioProject/vidya_app/arcMenuLibrary/src/main/res/drawable/composer_button.xml -->
+</selector><!-- From: file:/Users/akshaymehta/Akshay/CA_VidyaApp/vidya_app/arcMenuLibrary/src/main/res/drawable/composer_button.xml -->

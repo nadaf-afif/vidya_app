@@ -13,8 +13,9 @@ public class Constants {
     public static final String NOTIFICATION_API = "http://cavidya.com/Service/Auth.svc/GetNotificationList/laxman";
     public static final String DOWNLOAD_LIST_API = "http://cavidya.com/Service/Auth.svc/GetCourseDownloadList/laxman";
     public static final String UPLOADEDPATH ="http://cavidya.com/Download/" ;
+	public static final String POST_COMMENT_API = "http://cavidya.com/Service/ForumSrv.svc/InsertPost";
 
-    public static enum ActivityABarAction {
+	public static enum ActivityABarAction {
 		REGISTER,
 		GUEST_USER,
 		LANDING,

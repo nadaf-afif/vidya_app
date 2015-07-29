@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/G:/StudioProject/vidya_app/arcMenuLibrary/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/Users/akshaymehta/Akshay/CA_VidyaApp/vidya_app/arcMenuLibrary/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <attr format="dimension|reference" name="childSize"/>
     <attr format="float|reference" name="fromDegrees"/>

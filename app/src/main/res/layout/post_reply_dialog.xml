@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/text_white"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title"
+        android:padding="@dimen/padding_large"
+        android:textColor="@color/text_black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bodyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="@string/body"
+        android:minLines="3"
+        android:padding="@dimen/padding_large"
+        android:textColor="@color/text_black" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_large">
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:background="@drawable/rounded_corner_solid_dark_yellow"
+            android:padding="@dimen/padding_large"
+            android:text="@string/cancel"
+            android:textColor="@color/text_white"
+            android:layout_margin="@dimen/margin_medium"/>
+
+        <Button
+            android:id="@+id/replyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/rounded_corner_solid_dark_yellow"
+            android:padding="@dimen/padding_large"
+            android:text="@string/post_reply"
+            android:textColor="@color/text_white"
+            android:layout_margin="@dimen/margin_medium"/>
+    </RelativeLayout>
+
+</LinearLayout>

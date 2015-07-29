@@ -214,5 +214,7 @@ Chocolate bar jelly pie sugar plum. Biscuit wafer bonbon jelly beans chocolate i
     <string name="no_internet">No internet available</string>
     <string name="no_notification">No notification found</string>
     <string name="no_downloads">No Downloads Available</string>
+	<string name="post_reply">Post Reply</string>
+	<string name="body">Reply</string>
 
 </resources>
